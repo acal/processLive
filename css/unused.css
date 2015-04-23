@@ -1,0 +1,95 @@
+/* Bracket effect for list */
+
+
+.bracket tr > td:first-child {
+  border-left: 2px solid #333;
+
+ 
+}
+
+.bracket tr > td:last-child {
+  border-right: 2px solid #333;
+ 
+}
+
+
+.BracketLeft:before {
+    content: "[";
+    font-size:5em;
+    display: inline;
+    text-align: right;
+}
+.BracketRight:after {
+    content: "]";
+    font-size:5em;
+   display: inline;
+   text-align: left;
+}
+.addBracketLeft:before {
+    content: "[";
+    font-size:5em;
+    display: inline;
+    text-align: right;
+}
+.addBracketRight:after {
+    content: "]";
+    font-size:5em;
+   display: inline;
+   text-align: left;
+}
+.content {
+   display: inline;
+}
+/* End Bracket effect for list */
+
+.descr {
+  padding: 10px;
+  width: 300px;
+  margin: 0 0 25px 0;
+}
+
+/*
+.navbar {
+  min-height: 30px;
+}
+
+
+#accordion {
+  position: relative;
+  top: 14px;
+  right: 5px;
+  
+}
+#accordion a {
+  color: #9d9d9d;
+}
+
+.collapse.a {
+  visibility: hidden;
+}
+
+*/
+/*
+#navbar-close {
+  color: #888;
+  width: 22px;
+  height: 14px;
+}
+
+*/
+
+.functions_vert {
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
+}
+
+.panel_1 /*light grey article headers*/{
+  background: #bbbbbb;
+}
+
+
+.panel_adjust {
+  padding: 20px 0 20px 0;
+}

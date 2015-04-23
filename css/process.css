@@ -1,0 +1,340 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	border: 0;
+}
+
+html { font-size: 1em; }
+
+h1 { font-size: 2.074em; }
+
+h2 { font-size: 1.728em; }
+
+h3 { font-size: 1.44em; }
+
+h4 { font-size: 1.2em; }
+
+small { font-size: 0.833em; }
+
+.box { padding: 1.25em; }
+
+/* Clear fix */
+.clearfix {
+  overflow: auto;
+}
+/* end clear fix */
+
+
+body {
+  
+  overflow-x: hidden;
+}
+
+p {
+  font-weight: bold;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    padding: 7px 0 14px 0;
+    font-size: 50px;
+}
+
+header h3 {
+    padding: 14px 0 14px 0;
+}
+
+article ul {
+    list-style-type: none;
+}
+
+.pitchPic {
+margin: 5px auto 5px auto;
+
+}
+.pitch-bold {
+  font-weight: bold;
+}
+.pitch table, .pitch th, .pitch td {
+    border: 1px solid #333;
+   
+}
+.pitch th, .pitch td {
+    text-align: left;    
+}
+.brackets {
+ position: relative;
+ bottom: 10px;
+ height: 100%;
+
+}
+.ebook_vert {
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    transform-origin: 70% 60%;
+}
+
+.ebook {
+  padding: 12px 0 12px 0;
+}
+.ebook li {
+  padding: 12px 0 12px 0;
+  font-weight: bold;
+}
+
+
+.func_bg {
+  background-image: url(/img/pid1.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 0;
+  margin: 0;
+  
+}
+.less-row-space {
+  margin: 0;
+}
+.functions {
+  padding: 0 12px 20px 12px;
+  background-color: rgb(65,113,156);
+  background-color: rgba(65,113,156, .9);
+  color: #FFF;
+  display: block;
+}
+
+td {
+  padding-right: 0;
+}
+.table-functions {
+  width: 100%;
+}
+.table-functions td, .table-functions th {
+  padding: 0 2px 0 2px;
+}
+.table-functions > tbody > tr:nth-child(odd) {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+.table-functions > tbody > tr:nth-child(even) {
+  background-color: #bbbbbb;
+  color: #333333;
+}
+
+.table-functions > tbody > tr:first-child {
+  background-color: #383838;
+  color: #FFFFFF;
+}
+.functions li {
+  padding: 0 0 7px 0;
+  font-weight: bold;
+}
+
+.functions li:last-child {
+  padding: 0 0 20px 0;
+}
+
+.contact {
+  list-style-type: circle;
+}
+
+.skill {
+  text-align: right;
+  list-style-type: none;
+  
+}
+.skill li {
+  padding: 0 0 5px 0;
+}
+.screenshot-container {
+  background: #FFF url("/img/excelscreen1.jpg") no-repeat center top;
+  background-size: 100% 100%;
+  width: 350px;
+  height: 200px;
+  border: 4px solid #aaaaaa;
+  margin: 0 0 25px 0;
+}
+
+
+.navbar-nav > li > a {
+  font-weight: bold;
+  padding-left: 0;
+  padding-right: 7px;
+  margin-left: 0;
+  margin-right: 7px;
+}
+
+
+.panel_darkBlue /*Functions*/{
+  background: rgb(65,113,156);/* Fall-back for browsers that don't
+                                    support rgba */
+  background: rgba(65,113,156 .9);
+  color: #FFFFFF;
+ 
+}
+
+.panel_darkGrey /*dark grey ebooks*/{
+  background: rgb(56,56,56);
+  color: #FFFFFF;
+}
+
+.panel_lightBlue{
+  background: rgb(199,223,242);/* Fall-back for browsers that don't
+                                    support rgba */
+  background: rgba(199,223,242, .9);
+
+}
+
+.panel_contact {
+  background: rgb(179, 198, 215);
+  background: rgba(179, 198, 215, .9);
+  color: #383838;
+  padding: 0;
+}
+.panel_contact a {
+  color: #333;
+}
+.panel_mediumGrey {
+  background:#aaaaaa;
+  padding: 20px 0 20px 0;
+}
+
+
+.panel_footer {
+  background: #383838;
+  color: #808080;
+}
+.panel_footer hr {
+  border-top: 1px solid transparent;
+  box-shadow: 0 1px 0 rgba(255,255,255, .1), 0 1px 0 rgba(255,255,255, .1);
+  margin-left: 75px;
+  margin-right: 75px;
+  border-color: #101010;
+}
+.panel_demo {
+ 
+  padding-top: 20px;
+}
+
+.palettecolor {
+  color: white;
+  font-size: 13px;
+  float: left;
+  height: 200px;
+  width:20%;
+  text-align: center;
+  text-shadow: 2px 2px 2px #111111;
+}
+
+.section_header {
+  padding: 35px 0 12px 0;
+}
+
+.avatar img {
+  margin-top: 30px;
+}
+
+/* Searchbar related */
+
+.customSearch1 {
+  position: relative;
+  top: 15px;
+  right:17px;
+  padding: 0;
+  margin: 0;
+}
+
+.grey {
+  color: #7F7F7F;
+}
+.pow {
+  font-size: 2rem;
+  padding-top: 5px;
+}
+.collapse.width {
+    height: auto;
+    -webkit-transition: width 0.35s ease;
+    -moz-transition: width 0.35s ease;
+    -o-transition: width 0.35s ease;
+    transition: width 0.35s ease;
+}
+
+/* Custom Button */
+.btn-p1 {
+  color: #FFF;
+  background-color: #007133;
+  border-color: #ccc;
+}
+.btn-p1:hover,
+.btn-p1:focus,
+.btn-p1.focus,
+.btn-p1:active,
+.btn-p1.active,
+.open > .dropdown-toggle.btn-p1 {
+  color: #FFF;
+  background-color: #008b3f;
+  border-color: #adadad;
+}
+.btn-p1:active,
+.btn-p1.active,
+.open > .dropdown-toggle.btn-p1 {
+  background-image: none;
+}
+
+.fb {
+  vertical-align: top; /* adjusts fb buttonheight to match that of linkedin button */
+}
+
+.navbar-nav /* removed annoying H scrollbar from nav bar */{
+    margin: 0;
+    padding: 0;
+}
+p span {
+  display: block;
+}
+
+
+
+@media (max-width: 767px) {
+header h1 {
+    padding: 0 0 7px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+header h2 {
+    padding: 0 0 7px 0;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+h3 {
+  font-size: 1.1em;
+}
+td, th {
+  font-size: .833em;
+}
+}
+
+
+@media screen and (min-width: 1400px) {
+  html { font-size: 1.25em; }
+}
