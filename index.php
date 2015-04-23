@@ -307,49 +307,6 @@ Energy, water, elecrtrochemistry, specialty chemicals, oil & gas.</li>
 <?php
   include('partials/_footer.php')
 ?>
- 
-<!---  Color Palette -------------->
-<article>
-  <h2>Colors in Palette: Whale Blubber</h2>
-  <table class="table">
-      <tr>
-          <th>Color</th>
-          <th>Hex</th>
-          <th>RGB</th>
-      </tr>
-      <tr>
-          <td style="background-color:#41719c"></td>
-          <td><a href="/color/41719c" title="#4795d5 color">#41719c</a></td>
-          <td>(65,113,156)</td>
-      </tr>
-      <tr>
-          <td style="background-color:#4795d5"></td>
-          <td><a href="/color/4795d5" title="#4795d5 color">#4795d5</a></td>
-          <td>(71,149,213)</td>
-      </tr>
-      <tr>
-          <td style="background-color:#c7dff2"></td>
-          <td><a href="/color/c7dff2" title="#c7dff2 color">#c7dff2</a></td>
-          <td>(199,223,242)</td>
-      </tr>
-      <tr>
-          <td style="background-color: rgb(56,56,56)"></td>
-          <td><a href="/color/000000" title="#000000 color">#383838</a></td>
-          <td>(56,56,56)</td>
-      </tr>
-      <tr>
-          <td style="background-color:#bbbbbb"></td>
-          <td><a href="/color/bbbbbb" title="#bbbbbb color">#bbbbbb</a></td>
-          <td>(187,187,187)</td>
-      </tr>
-      <tr>
-          <td style="background-color:#aaaaaa"></td>
-          <td><a href="/color/aaaaaa" title="#aaaaaa color">#aaaaaa</a></td>
-          <td>(170,170,170)</td>
-      </tr>
-  </table>
-  <div class="clearfix"></div>
-</article>
 
 <!-- close main div container -->  
 
