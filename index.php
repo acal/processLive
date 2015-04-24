@@ -267,7 +267,7 @@ include('partials/_serachox.php')
 	    <ul class="contact">
 	      <p>Chris Burk</p>
 	      <li>10+ years experience in process development, modeling & evaluation
-Energy, water, elecrtrochemistry, specialty chemicals, oil & gas.</li>
+Energy, water, electrochemistry, specialty chemicals, oil & gas.</li>
         <li>Colorado Licensed Professional Engineer</li>
         <li>BS, MEng | Chemical Engineering | Cornell University</li>
       </ul>
