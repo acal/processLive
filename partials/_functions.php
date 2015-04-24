@@ -1,4 +1,3 @@
-<section></section>
 <div class="container-fluid func_bg">
   <article id="func" class="functions">
     <div class="row"> 
@@ -190,4 +189,3 @@
 </article>
 <!-- End div container fluid -->
 </div>
-</section>
