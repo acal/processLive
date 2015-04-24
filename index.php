@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="icon" type="image/png" href="/img/favicon_32px.jpg" sizes="32x32"/>
     <link rel="icon" type="image/png" href="/img/favicon_16px.jpg" sizes="16x16"/>
@@ -17,7 +18,7 @@
     <meta name="function description" content="Process Utility"/>
 
 
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+   
     <meta name="author" content="Process Utilities" />
     <meta name="description" content="Process Utilities Microsoft Excel Engineering Addon Plugin">
     <meta name="keywords" content="Microsoft Excel, addin, plugin, unit 
@@ -174,7 +175,7 @@ include('partials/_serachox.php')
       <br>
       <div class="col-xs-0 col-sm-3 col-lg-3"></div>
       <div class="col-xs-6 col-sm-9 col-lg-9">
-     
+     <p>Coming Soon...</p>
         <figure><div class="screenshot-container">Hello...</div></figure>
       </div>
     </div>	
@@ -237,12 +238,12 @@ include('partials/_serachox.php')
     include('partials/_social.php')
     ?>
     <br>
+    <div class="clearfix"></div>
     
-    <div class="row">
      <?php
     include('partials/_subscribe.php')
     ?>
-    </div>
+  <div class="clearfix"></div>
    
     <?php
     include('partials/_purchaseButton.php')
@@ -307,6 +308,8 @@ Energy, water, elecrtrochemistry, specialty chemicals, oil & gas.</li>
 <?php
   include('partials/_footer.php')
 ?>
+ 
+
 
 <!-- close main div container -->  
 
