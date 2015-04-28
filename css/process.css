@@ -286,6 +286,8 @@ td {
   color: #FFF;
   background-color: #007133;
   border-color: #ccc;
+  transition-duration: 0.3s;
+  width: 200px;
 }
 .btn-p1:hover,
 .btn-p1:focus,
@@ -296,11 +298,13 @@ td {
   color: #FFF;
   background-color: #008b3f;
   border-color: #adadad;
+  transition-duration: 0.3s;
 }
 .btn-p1:active,
 .btn-p1.active,
 .open > .dropdown-toggle.btn-p1 {
   background-image: none;
+  transition-duration: 0.3s;
 }
 
 .linkedin {
