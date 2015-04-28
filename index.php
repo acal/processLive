@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="icon" type="image/png" href="/img/favicon_32px.jpg" sizes="32x32"/>
     <link rel="icon" type="image/png" href="/img/favicon_16px.jpg" sizes="16x16"/>
+    <link rel="alternate" href="http://processutilites.com/en" hreflang="en" />
     <title>Process|Utilities Excel Add-in for Engineers</title>
 
     <meta property="og:title" content="Process | Utility"/>
