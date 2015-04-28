@@ -1,16 +1,12 @@
 <!-- Actual embed code for Facebook follow like and share buttons -->
 
-    <div class="row soc">
-        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-        <script type="IN/Share" data-url="www.processutilities.com"></script>
-        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-        <script type="IN/FollowCompany" data-id="1337"></script>
-  
-      <div class="fb-follow fb" data-href="https://www.facebook.com/zuck" data-colorscheme="light" 
-        data-layout="button" data-show-faces="true"></div>
-
-      <div class="fb-share-button fb" data-href="https://developers.facebook.com/docs/plugins/" 
-        data-layout="button"></div>          
+    <div class="row">
+      <div class="btn-group-vertical" role="group" aria-label="...">
+        <a href="mailto:info@processutilites.com" class="btn btn-default" role="button"><i class="icon icon-envelope"></i> Email</a>
+        <a href="#" class="btn btn-default" role="button"><i class="icon icon-facebook-square"></i> Follow</a>
+        <a href="#" class="btn btn-default" role="button"><i class="icon icon-linkedin-square"></i> Follow</a>
+        <a href="#" class="btn btn-default" role="button"><i class="icon icon-facebook"></i> Share</a>
+        <a href="#" class="btn btn-default" role="button"><i class="icon icon-linkedin"></i> Share</a>
+        <a href="https://github.com/ProcessUtility/documentation" class="btn btn-default" role="button"><i class="icon icon-github"></i></i> Documentation</a>
     </div>
-
-
+    </div>

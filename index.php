@@ -36,6 +36,7 @@
     <script src="js/jquery.1.11.1.min.js"></script>
     <script src="js/bootstrap.3.3.4.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://use.fonticons.com/9943254c.js"></script> 
     
 </head>
 
@@ -203,31 +204,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </article>   
 </div> 
 <!-- contact section -->
-<div class="panel_contact">
+<div class="panel_contact text-center">
   <article id="contact">
     <div class="row section_header">
       <h1 class="text-center">[ CONTACT ]</h1>
     </div>
     <br>
-    <div class="row text-center">  
-      <p>For more information or to set up a meeting:</p>
-      <p><a href="mailto:chris@processutilites.com">chris@processutilites.com</a></p>
-    
+   
       <?php
       include('partials/_social.php')
       ?>
       <br>
-    </div>
+    
+    
      <?php
     include('partials/_subscribe.php')
     ?>
-
    
     <?php
     include('partials/_purchaseButton.php')
     ?>
-    </article>
-    </div>
+  
+  </article>
+</div>
 
 
 <!-- Consulting section -->			

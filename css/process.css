@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* GENERAL CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,141 +43,42 @@ small { font-size: 0.833em; }
   overflow: auto;
 }
 /* end clear fix */
-
-
-
-
 p {
   font-weight: bold;
 }
-
 header {
     text-align: center;
 }
-
 header h1 {
     padding: 7px 0 14px 0;
     font-size: 50px;
 }
-
 header h3 {
     padding: 14px 0 14px 0;
 }
-
 article ul {
     list-style-type: none;
 }
 
-.pitchPic img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding: 0 10px 0 10px;
-
+p span {
+  display: block;
 }
-.pitch table, .pitch th, .pitch td {
-    border: 1px solid #333;
-   
-}
-.pitch th, .pitch td {
-    text-align: left;    
-}
-.brackets {
- position: relative;
- bottom: 10px;
- height: 100%;
-
-}
-.ebook_vert {
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-    transform: rotate(-90deg);
-    transform-origin: 70% 60%;
-}
-
-.ebook {
-  padding: 12px 0 12px 0;
-}
-.ebook li {
-  padding: 12px 0 12px 0;
-  font-weight: bold;
-}
-
 .less-row-space {
   margin: 0;
 }
 td {
   padding-right: 0;
 }
-.func_bg {
-  background-image: url(/img/pid1.png);
-  background-repeat: no-repeat;
-  background-position: right top;
-  padding: 0;
-  margin: 0;
-  
+.section_header {
+  padding: 35px 0 12px 0;
 }
+/* END GENERAL */
 
-.functions {
-  padding: 0 12px 20px 12px;
-  background-color: rgb(65,113,156);
-  background-color: rgba(65,113,156, .9);
-  color: #FFF;
-  display: block;
+/* Navigtation */
+.navbar-nav /* removed annoying H scrollbar from nav bar */{
+    margin: 0;
+    padding: 0;
 }
-
-
-.table-functions {
-  width: 100%;
-}
-.table-functions td, .table-functions th {
-  padding: 0 2px 0 2px;
-}
-.table-functions > tbody > tr:nth-child(odd) {
-  background-color: #FFFFFF;
-  color: #333333;
-}
-
-.table-functions > tbody > tr:nth-child(even) {
-  background-color: #bbbbbb;
-  color: #333333;
-}
-
-.table-functions > tbody > tr:first-child {
-  background-color: #383838;
-  color: #FFFFFF;
-}
-.functions li {
-  padding: 0 0 7px 0;
-  font-weight: bold;
-}
-
-.functions li:last-child {
-  padding: 0 0 20px 0;
-}
-
-.contact {
-  list-style-type: circle;
-}
-
-.skill {
-  text-align: right;
-  list-style-type: none;
-  
-}
-.skill li {
-  padding: 0 0 5px 0;
-}
-.screenshot-container {
-  background: #FFF url("/img/excelscreen1.jpg") no-repeat center top;
-  background-size: 100% 100%;
-  width: 350px;
-  height: 200px;
-  border: 4px solid #aaaaaa;
-  margin: 0 0 25px 0;
-}
-
-
 .navbar-nav > li > a {
   font-weight: bold;
   padding-left: 0;
@@ -185,79 +86,9 @@ td {
   margin-left: 0;
   margin-right: 7px;
 }
-
-
-.panel_darkBlue /*Functions*/{
-  background: rgb(65,113,156);/* Fall-back for browsers that don't
-                                    support rgba */
-  background: rgba(65,113,156 .9);
-  color: #FFFFFF;
- 
-}
-
-.panel_darkGrey /*dark grey ebooks*/{
-  background: rgb(56,56,56);
-  color: #FFFFFF;
-}
-
-.panel_lightBlue{
-  background: rgb(199,223,242);/* Fall-back for browsers that don't
-                                    support rgba */
-  background: rgba(199,223,242, .9);
-
-}
-
-.panel_contact {
-  background: rgb(179, 198, 215);
-  background: rgba(179, 198, 215, .9);
-  color: #383838;
-  padding: 0;
-}
-.panel_contact a {
-  color: #333;
-}
-.panel_mediumGrey {
-  background:#aaaaaa;
-  padding: 20px 0 20px 0;
-}
-
-
-.panel_footer {
-  background: #383838;
-  color: #808080;
-}
-.panel_footer hr {
-  border-top: 1px solid transparent;
-  box-shadow: 0 1px 0 rgba(255,255,255, .1), 0 1px 0 rgba(255,255,255, .1);
-  margin-left: 75px;
-  margin-right: 75px;
-  border-color: #101010;
-}
-.panel_demo {
- 
-  padding-top: 20px;
-}
-
-.palettecolor {
-  color: white;
-  font-size: 13px;
-  float: left;
-  height: 200px;
-  width:20%;
-  text-align: center;
-  text-shadow: 2px 2px 2px #111111;
-}
-
-.section_header {
-  padding: 35px 0 12px 0;
-}
-
-.avatar img {
-  margin-top: 30px;
-}
+/* END NAVIGATION*/
 
 /* Searchbar related */
-
 .customSearch1 {
   position: relative;
   top: 15px;
@@ -265,7 +96,6 @@ td {
   padding: 0;
   margin: 0;
 }
-
 .grey {
   color: #7F7F7F;
 }
@@ -280,6 +110,145 @@ td {
     -o-transition: width 0.35s ease;
     transition: width 0.35s ease;
 }
+/* END Searchbar related */
+
+/* PITCH INFO SECTION */
+.pitchPic img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 0 10px 0 10px;
+}
+.pitch table, .pitch th, .pitch td {
+    border: 1px solid #333;
+}
+.pitch th, .pitch td {
+    text-align: left;    
+}
+.brackets {
+ position: relative;
+ bottom: 10px;
+ height: 100%;
+}
+/* END PITCH INFO SECTION */
+
+/*FUNCTIONS SECTION*/
+.func_bg {
+  background-image: url(/img/pid1.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 0;
+  margin: 0;
+}
+.functions {
+  padding: 0 12px 20px 12px;
+  background-color: rgb(65,113,156);
+  background-color: rgba(65,113,156, .9);
+  color: #FFF;
+  display: block;
+}
+.table-functions {
+  width: 100%;
+}
+.table-functions td, .table-functions th {
+  padding: 0 2px 0 2px;
+}
+.table-functions > tbody > tr:nth-child(odd) {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+.table-functions > tbody > tr:nth-child(even) {
+  background-color: #bbbbbb;
+  color: #333333;
+}
+.table-functions > tbody > tr:first-child {
+  background-color: #383838;
+  color: #FFFFFF;
+}
+.functions li {
+  padding: 0 0 7px 0;
+  font-weight: bold;
+}
+.functions li:last-child {
+  padding: 0 0 20px 0;
+}
+/*END FUNCTIONS SECTION*/
+
+/*DEMO SECTION*/
+.screenshot-container {
+  background: #FFF url("/img/excelscreen1.jpg") no-repeat center top;
+  background-size: 100% 100%;
+  width: 350px;
+  height: 200px;
+  border: 4px solid #aaaaaa;
+  margin: 0 0 25px 0;
+}
+.panel_demo {
+  padding-top: 20px;
+}
+/*END DEMO SECTION*/
+
+/*CONTACT SECTION*/
+.contact {
+  list-style-type: circle;
+}
+.panel_contact {
+  background: rgb(179, 198, 215);
+  background: rgba(179, 198, 215, .9);
+  color: #383838;
+  padding: 0;
+}
+/*END CONTACT SECTION*/
+
+/*CONSULTING BIO SECTION*/
+.skill {
+  text-align: right;
+  list-style-type: none;
+}
+.skill li {
+  padding: 0 0 5px 0;
+}
+.avatar img {
+  margin-top: 30px;
+}
+/*END CONSULTING BIO SECTION*/
+
+
+/*ebooks*/
+
+.panel_darkGrey {
+  background: rgb(56,56,56);
+  color: #FFFFFF;
+}
+.ebook_vert {
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    transform-origin: 70% 60%;
+}
+.ebook {
+  padding: 12px 0 12px 0;
+}
+.ebook li {
+  padding: 12px 0 12px 0;
+  font-weight: bold;
+}
+/*End ebooks */
+
+/*FOOTER */
+.panel_footer {
+  background: #383838;
+  color: #808080;
+}
+.panel_footer hr {
+  border-top: 1px solid transparent;
+  box-shadow: 0 1px 0 rgba(255,255,255, .1), 0 1px 0 rgba(255,255,255, .1);
+  margin-left: 75px;
+  margin-right: 75px;
+  border-color: #101010;
+}
+/*END FOOTER */
+
 
 /* Custom Button */
 .btn-p1 {
@@ -306,26 +275,36 @@ td {
   background-image: none;
   transition-duration: 0.3s;
 }
+/* END CUSTOM BUTTON*/
 
-.linkedin {
-  line-height:.7; /* adjusts fb buttonheight to match that of linkedin button */
-}
-.soc {
-  display: inline;
-  
-}
-.navbar-nav /* removed annoying H scrollbar from nav bar */{
-    margin: 0;
-    padding: 0;
-}
-p span {
-  display: block;
-}
-
-
+/* Fontawesome CSS */
+.doc-icon {
+        margin-bottom: 15px;
+        display: table;
+        table-layout: fixed;
+      }
+      .doc-icon i {
+        display: table-cell;
+        font-size: 3em;
+        width: 1.5em;
+        padding-right: 5px;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .doc-icon code {
+        display: table-cell;
+        color: #555;
+        background-color: #f5f5f5;
+        font-size: 12px;
+        vertical-align: middle;
+        padding: 2px 8px;
+      }
+      .page-header .lead { margin-bottom: 5px; }
+      .alert h3 { margin-top: 0; }
+      .container div.alert { margin-top: 40px; }
+/* RESPONSIVE MEDIA CALLS */   
 
 @media (max-width: 767px) {
-
 header h1 {
     padding: 0 0 7px 0;
     font-size: 1.5em;
@@ -344,7 +323,7 @@ td, th {
 }
 }
 
-
 @media screen and (min-width: 1400px) {
   html { font-size: 1.25em; }
 }
+/* END RESPONSIVE MEDIA CALLS */   
