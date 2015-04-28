@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" prefix="og: http://ogp.me/ns#">
 
 <head>
     <meta charset="utf-8" />
@@ -14,11 +14,8 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://processutility.com"/>
     <meta property="og:image" content="/img/process-logo.png"/>
-
+  
     <meta name="function description" content="Process Utility"/>
-
-
-   
     <meta name="author" content="Process Utilities" />
     <meta name="description" content="Process Utilities Microsoft Excel Engineering Addon Plugin">
     <meta name="keywords" content="Microsoft Excel, addin, plugin, unit 
@@ -53,7 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-TM7GCW');</script>
 <!-- End Google Tag Manager -->
 
-<!-- Facebook like adn share button js -->
+<!-- Facebook like adn share button js sdk -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -64,66 +61,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }(document, 'script', 'facebook-jssdk'));</script>
 <!-- End Facebook like share button script -->
 
-<?php
-  include('partials/_nav.php')
-?>
 
 <!-- Main content container div -->
 <main>
-
-<!--  Searchbar ------------------------------------------------>
 <div class="container-fluid">
-<br><br><br>
-<div id="navigation-bar" class="clearfix">
-            
-            <form id="search" action="#" method="post">
-                <div id="label"><label for="search-terms" id="search-label">search</label></div>
-                <div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
-            </form>
-        
-          <script src="js/classie.js"></script>
-          <script src="js/search.js"></script> </div>
-
-<?php 
-include('partials/_serachox.php')
+<!-- Nav -->
+<?php
+  include('partials/_nav.php')
 ?>
+<!--  Searchbar -->
+  <br><br><br>
+  <div id="search-bar">
+          <form id="search" action="#" method="post">
+              <div id="label"><label for="search-terms" id="search-label">search</label></div>
+              <div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
+          </form>
+          <script src="js/classie.js"></script>
+          <script src="js/search.js"></script> 
+  </div>
 
-<!-- end container -->
-</div>
-
-
-<!-- Header section ------------------------------------------------------------>
-<div class="container-fluid">
-  <header class="process">
+<!-- Header section -->
+<header class="process">
    <div class="row">    
       <h1 class="less-row-space">PROCESS | UTILITIES</h1>
    </div>
    <div class="row">
       <h2 class="less-row-space">[ Engineer in Excel ]</h2>
    </div>
-      <div class="clearfix"></div>
-  </header>    
-</div>
-<!-- Info graphic / pitch --------------------------------------------------->
+</header>    
+
+<!-- Info graphic / pitch -->
  <article>
-  <div class="container">
-    
     <div class="row">
       <div class="pitchPic">
         <img src="img/PID_picture.png" class="img-responsive" alt="PID Process Utilities" 
-        width="1065px" height="404px" align="middle">
+        width="1065px" height="404px">
       </div>
     </div>
-    
-  </div>
-  
-  <div class="container-fluid">  
-    <div class="row pitch-bold">
-        <p><span><h3 class="text-center less-row-space">A set of custom functions,</h3></span>
-        <span><h3 class="text-center less-row-space">taking Process Engineering in Excel to a new level.</h3></span></p>
+ 
+    <div class="row">
+        <span><h3 class="text-center less-row-space">A set of custom functions,</h3></span>
+        <span><h3 class="text-center less-row-space">taking Process Engineering in Excel to a new level.</h3></span>
     </div>
     <br>
-        <div class="row pitch-bold">
+    <div class="row pitch-bold">
           <table align="center">
             <tr>
               <th colspan="6"></th>
@@ -157,18 +138,20 @@ include('partials/_serachox.php')
            </div>
            <div class="col-xs-0 col-sm-3 col-lg-3"></div>
          </div>
-   <div class="clearfix"></div>
+         <?php
+          include('partials/_purchaseButton.php')
+          ?>
 </article>
-<?php
-  include('partials/_purchaseButton.php')
-?>
-<!-- the functions section------------------------------------------------>
-<?php
-  include('partials/_functions.php')
-?>
 
-<!--  Demo / Screenshots ----------------------------------------------------->
-<div class="container_fluid">
+<!-- fung-fb provides background image for functions and demo section -->
+  <div class="func_bg">
+<!-- the functions section -->
+    <?php
+      include('partials/_functions.php')
+    ?>
+<!-- end div func-bg -->  
+  </div>
+<!--  Demo / Screenshots -->
   <article id="demo">
     <div class="row panel_demo">
       <h1 class="text-center">[ DEMO ]</h1> 
@@ -186,17 +169,15 @@ include('partials/_serachox.php')
       </div>
     </div>
     <div class="row panel_demo">
-    <?php
-    include('partials/_purchaseButton.php')
-    ?>
-  </div>
-    <div class="clearfix"></div>
+      <?php
+      include('partials/_purchaseButton.php')
+      ?>
+    </div>
   </article>
-<!-- close container-fluid -->
-</div>
 
-<!-- ebooks section-------------------------------------------------------------->
-<div class="container-fluid panel_darkGrey">
+
+<!-- ebooks section -->
+<div class="panel_darkGrey">
   <article id="ebooks">
      <div class="row section_header">
           <h1 class="text-center">[ e^BOOKS ]</h1>
@@ -218,13 +199,11 @@ include('partials/_serachox.php')
       </div>
     </div>
     <div class="row text-center"><i>Signup below for email update for e^book release information and promotionals </i></div><br>
-    <div class="clearfix"></div>
+
   </article>   
-<!-- close container-fluid -->
-</div>
- 
+</div> 
 <!-- contact section -->
-<div class="container-fluid panel_contact">
+<div class="panel_contact">
   <article id="contact">
     <div class="row section_header">
       <h1 class="text-center">[ CONTACT ]</h1>
@@ -233,29 +212,25 @@ include('partials/_serachox.php')
     <div class="row text-center">  
       <p>For more information or to set up a meeting:</p>
       <p><a href="mailto:chris@processutilites.com">chris@processutilites.com</a></p>
-    </div>
-    <?php
-    include('partials/_social.php')
-    ?>
-    <br>
-    <div class="clearfix"></div>
     
+      <?php
+      include('partials/_social.php')
+      ?>
+      <br>
+    </div>
      <?php
     include('partials/_subscribe.php')
     ?>
-  <div class="clearfix"></div>
+
    
     <?php
     include('partials/_purchaseButton.php')
     ?>
+    </article>
     </div>
-    <div class="clearfix"></div>
-  </article> 
-<!-- close container-fluid -->
-</div>
 
-<!-- Consulting section------------------------->			
-<div class="container-fluid">
+
+<!-- Consulting section -->			
 <article id="consulting">
 	<div class="row section_header">
 	  <h1 class="text-center">[ CONSULTING ]</h1>
@@ -292,7 +267,7 @@ Energy, water, electrochemistry, specialty chemicals, oil & gas.</li>
         <li>Pilot plant design</li>
         <br>
         <li>P&ID development</li>
-        <li>PFD & material balance</li>
+        <li>PFD &amp; material balance</li>
       </ul>
     </div>
 
@@ -300,11 +275,9 @@ Energy, water, electrochemistry, specialty chemicals, oil & gas.</li>
       <img src="img/CB2.jpg" height="350px" width="250px" alt="Chris climbing pic">
     </div>
   </div>
-  <div class="clearfix"></div>
+
 </article>
-<!-- close container-fluid -->
-</div>
- 
+
 <?php
   include('partials/_footer.php')
 ?>
@@ -312,9 +285,8 @@ Energy, water, electrochemistry, specialty chemicals, oil & gas.</li>
 
 
 <!-- close main div container -->  
-
- </div>
- </main>
+  </div>
+</main>
 
 </body>
 </html>

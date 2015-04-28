@@ -1,5 +1,6 @@
-<div class="container-fluid func_bg">
-  <article id="func" class="functions">
+
+  <article id="func">
+    <div class="functions">
     <div class="row"> 
       <div class="row section_header">
         <h1 class="text-center">[ THE FUNCTIONS ]</h1>
@@ -158,7 +159,7 @@
           </tr>
           <tr>
             <td>COUNTATOM( … )</td>
-            <td>count the number of a particular element in a molecule</span></td>		
+            <td>count the number of a particular element in a molecule</td>		
           </tr>
         </table>
       </div>
@@ -184,8 +185,8 @@
         </table>
       </div>
     </div>
-   <!-- Add the extra clearfix for only the required viewport -->
-  <div class="clearfix visible-xs-block"></div>
+<!-- End class "func-bg functions and article" -->   
+  </div>
 </article>
-<!-- End div container fluid -->
-</div>
+
+

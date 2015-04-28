@@ -34,6 +34,10 @@ small { font-size: 0.833em; }
 
 .box { padding: 1.25em; }
 
+.container-fluid {
+  padding: 0 0 0 0;
+  overflow-x: hidden;
+}
 /* Clear fix */
 .clearfix {
   overflow: auto;
@@ -41,10 +45,7 @@ small { font-size: 0.833em; }
 /* end clear fix */
 
 
-body {
-  
-  overflow-x: hidden;
-}
+
 
 p {
   font-weight: bold;
@@ -67,12 +68,12 @@ article ul {
     list-style-type: none;
 }
 
-.pitchPic {
-margin: 5px auto 5px auto;
+.pitchPic img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 0 10px 0 10px;
 
-}
-.pitch-bold {
-  font-weight: bold;
 }
 .pitch table, .pitch th, .pitch td {
     border: 1px solid #333;
@@ -102,7 +103,12 @@ margin: 5px auto 5px auto;
   font-weight: bold;
 }
 
-
+.less-row-space {
+  margin: 0;
+}
+td {
+  padding-right: 0;
+}
 .func_bg {
   background-image: url(/img/pid1.png);
   background-repeat: no-repeat;
@@ -111,9 +117,7 @@ margin: 5px auto 5px auto;
   margin: 0;
   
 }
-.less-row-space {
-  margin: 0;
-}
+
 .functions {
   padding: 0 12px 20px 12px;
   background-color: rgb(65,113,156);
@@ -122,9 +126,7 @@ margin: 5px auto 5px auto;
   display: block;
 }
 
-td {
-  padding-right: 0;
-}
+
 .table-functions {
   width: 100%;
 }
@@ -301,10 +303,13 @@ td {
   background-image: none;
 }
 
-.fb {
-  vertical-align: top; /* adjusts fb buttonheight to match that of linkedin button */
+.linkedin {
+  line-height:.7; /* adjusts fb buttonheight to match that of linkedin button */
 }
-
+.soc {
+  display: inline;
+  
+}
 .navbar-nav /* removed annoying H scrollbar from nav bar */{
     margin: 0;
     padding: 0;
@@ -316,6 +321,7 @@ p span {
 
 
 @media (max-width: 767px) {
+
 header h1 {
     padding: 0 0 7px 0;
     font-size: 1.5em;

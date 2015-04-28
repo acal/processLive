@@ -1,7 +1,3 @@
-<!-- navigation ------------------------------------------->  
-<div class="container-fluid">
-  
-  
   <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-header">
         <a class="navbar-brand" href="index.php">PROCESS | UTILITIES</a>
@@ -12,11 +8,7 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-     
-
-
      <div class="navbar-collapse collapse" id="myNavbar">
-        
         <ul class="nav navbar-nav navbar-right">
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.php">home</a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#func">the functions</a></li>
@@ -25,9 +17,6 @@
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#consulting">consulting</a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="download.php">download</a></li> 
         </ul>
-      
       </div>
- 
   </nav>
   
-  </div>
