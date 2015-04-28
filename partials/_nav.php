@@ -15,7 +15,7 @@
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#ebooks">ebooks</a></li> 
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">contact</a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#consulting">consulting</a></li>
-          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="download.php">download</a></li> 
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="https://gumroad.com/l/ngIdt">preorder</a></li> 
         </ul>
       </div>
   </nav>
