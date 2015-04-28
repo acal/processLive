@@ -3,7 +3,7 @@
 |* Nav bar, search, and nav
 |* ------------------------------------------------------------ *|
 \* ------------------------------------------------------------ */
-#navigation-bar {
+#search-bar {
     position: relative;
     height: 36px;
     padding-left: 60px;
@@ -27,17 +27,17 @@
     display: block;
     width: 36px;
     height: 36px;
-    background: url("../img/search.png") 0 0;
+    background: url("/img/search.png") 0 0;
     font-size: 0;
     color: rgba(0, 0, 0, 0);
     text-indent: -9999px;
     cursor: pointer;
 }
 #label label:hover {
-    background: url("../img/search.png") -36px 0
+    background: url("/img/search.png") -36px 0
 }
 #label.active label {
-    background: url("../img/search.png") -36px 0
+    background: url("/img/search.png") -36px 0
 }
 #input {
     position: absolute;
