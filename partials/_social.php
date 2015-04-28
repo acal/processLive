@@ -7,6 +7,6 @@
         <a href="#" class="btn btn-default" role="button" target="_blank"><i class="icon icon-linkedin-square"></i> Follow</a>
         <a href="#" class="btn btn-default" role="button" target="_blank"><i class="icon icon-facebook"></i> Share</a>
         <a href="#" class="btn btn-default" role="button" target="_blank"><i class="icon icon-linkedin"></i> Share</a>
-        <a href="https://github.com/ProcessUtility/documentation" class="btn btn-default" role="button" target="_blank"><i class="icon icon-github"></i></i> Documentation</a>
+        <a href="https://github.com/ProcessUtilities/documentation" class="btn btn-default" role="button" target="_blank"><i class="icon icon-github"></i></i> Documentation</a>
     </div>
     </div>
