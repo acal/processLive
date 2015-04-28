@@ -98,9 +98,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <hr>
     <div class="row">
-        <p>All images, content and other forms of media served from this website, also referred to as the "site", are copyrighted.  Unauthorized reproduction of media is restricted.  Please contact julie@juliemaren.com for reproduction and/or licensing information.</p>
+        <p>All images, content and other forms of media served from this website, also referred to as the "site", 
+        are copyrighted.  Unauthorized reproduction of media is restricted.  Please contact info@processutilities.com 
+        for reproduction and/or licensing information.</p>
         <br>
-        <p>Digital social sharing of website images or content via twitter, linkedin or facebook is permitted but must contain publicly readable and functioning hyperlinks to the original content found on this site and whenever practicable include publicly readable text with the content reading "Copyright: Julie Maren Artist" or "Credits: Julie Maren Artist."</p>
+        <p>Digital social sharing of website images or content via twitter, linkedin or facebook is permitted 
+        but must contain publicly readable and functioning hyperlinks to the original content found on this site 
+        and whenever practicable include publicly readable text with the content reading 
+        "Copyright: Burk Engineering LLC" or "Credits: Burk Engineering LLC"</p>
         <br>
         <p>The content of this site is intended for mature audiences.  Children under 13 are not permitted.</p>
         <br>
