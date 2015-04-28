@@ -10,12 +10,12 @@
       </div>
      <div class="navbar-collapse collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.php">home</a></li>
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.php"><i class="icon icon-home"></i></a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#func">the functions</a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#ebooks">ebooks</a></li> 
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">contact</a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#consulting">consulting</a></li>
-          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="https://gumroad.com/l/ngIdt">preorder</a></li> 
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="https://gumroad.com/l/ngIdt" target="_blank">preorder</a></li> 
         </ul>
       </div>
   </nav>
