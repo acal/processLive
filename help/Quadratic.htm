@@ -1,0 +1,289 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>QUADRATIC</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height: 50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+        
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col {
+            Width: 100px;
+        }
+        
+
+        
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>QUADRATIC function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>QUADRATIC</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Uses the quadratic formula to find roots of quadratic equations of the form:</p>
+                <div style ="text-align:center;"><img src="Quadratic.png"></div>
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax">QUADRATIC(a, b, c, root_index)</p>
+                <p>The QUADRATIC function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>A</b> &nbsp; &nbsp; Required. The coefficient of the x^2 term.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>B</b> &nbsp; &nbsp; Required. The coefficient of the x^1 term.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>C</b> &nbsp; &nbsp; Required. The coefficient of the x^0 term.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Root_index</b> &nbsp; &nbsp; Optional. Indicates which of up to two roots to return.
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+
+            </section>
+
+            <section>
+                <br>
+
+                <p> QUADRATIC accepts the following case-insensitive text values (in quotation marks) for Root_index.</p>
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Root_index</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>Description</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>r1
+                                </p>
+                            </td>
+                            <td>
+                                <p>Returns the root that corresponds to (-b + sqrt(b2-4ac))/2a.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>r2
+                                </p>
+                            </td>
+                            <td>
+                                <p>Returns the root that corresponds to (-b - sqrt(b2-4ac))/2a.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>pos
+                                </p>
+                            </td>
+                            <td>
+                                <p>If one positive and one negative root exist, returns the positive root, otherwise returns the #VALUE! error.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>neg
+                                </p>
+                            </td>
+                            <td>
+                                <p>If one positive and one negative root exist, returns the negative root, otherwise returns the #VALUE! error.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Remarks</h2>
+                <ul>
+                    <li>
+                        <p>If the input data types are incorrect, or the equation specified has no real roots, QUADRATIC returns the #VALUE! error value.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Example</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="row_label_col">
+                                <p></p>
+                            </td>
+                            <td class="formula_col">
+                                <p><b>A</b>
+                                </p>
+                            </td>
+                            <td class="result_col">
+                                <p><b>B</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b>1</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Formula</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Description (Result)</b>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>2</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=QUADRATIC(1, -5, -6, "pos")</p>
+                            </td>
+                            <td>
+                                <p>Returns the positive root for the equation '0 = x^2 - 5x - 6'.  (6).</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><b>3</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=QUADRATIC(2, -5, -6, "r1")</p>
+                            </td>
+                            <td>
+                                <p>Returns 'r1' root (as defined above) for the equation '0 = 2x^2 - 5x - 6' (3.39).</p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,253 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>DIMENSIONLESS</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height: 50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+        
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col {
+            Width: 100px;
+        }
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>DIMENSIONLESS function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>DIMENSIONLESS</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Uses dimensional analysis to construct and calculate the value of a dimensionless number based on the arguments specified. Value/unit pairs can be entered in any order, given that all numerator value/unit pairs are entered before all denominator pairs.</p>
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax">DIMENSIONLESS(value1, units1, value2, units2, [value3], [units3]...)</p>
+                <p>The DIMENSIONLESS function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Value1</b> &nbsp; &nbsp; Required. The first value.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Units1</b> &nbsp; &nbsp; Required. The units for Value1.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Value2</b> &nbsp; &nbsp; Required. The second value.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Units2</b> &nbsp; &nbsp; Required. The units for Value2.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Value3</b> &nbsp; &nbsp; Optional. The third value.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Units3</b> &nbsp; &nbsp; Optional. The  units for Value3.
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+            </section>
+
+            <br>
+
+            <section>
+                <h2>Remarks</h2>
+                <ul>
+                    <li>
+                        <p>See entry for the CONV function regarding acceptable units arguments.</p>
+                    </li>
+                    <li>
+                        <p>If the input data types are incorrect, the units do not exist, or a dimensionless number cannot be constructed from the arguments, DIMENSIONLESS returns the #VALUE! error value.</p>
+                    </li>
+                    <li>
+                        <p>Dimensionsless numbers that can be calculated include Re, Pr, Nu, Sh, Ma, Sc, Fo, La, Kn, and others.  </p>
+                    </li>
+                    <li>
+                        <p>Dimensionless can accept up to six value/units pairs as arguments.</p>
+                    </li>
+
+                </ul>
+            </section>
+
+            <br>
+
+            <section>
+                <h2>Example</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="row_label_col">
+                                <p></p>
+                            </td>
+                            <td class="formula_col">
+                                <p><b>A</b>
+                                </p>
+                            </td>
+                            <td class="result_col">
+                                <p><b>B</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b>1</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Formula</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Description (Result)</b>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>2</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=DIMENSIONLESS(1,"g/cm3",15,"ft/s","2.05","in",0.836,"cP")</p>
+                            </td>
+                            <td>
+                                <p>Returns the value of Reynolds number, based on density, velocity, diameter, and viscosity (2.84E05).</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><b>3</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=DIMENSIONLESS(0.93,"cP", 1.2, "Btu/(lb-degF)", 0.172,"Btu-in/(h-ft2-degF)")</p>
+                            </td>
+                            <td>
+                                <p>Returns the value of Prandtl number, based on viscosity, heat capacity, and thermal conductivity (188)</p>
+                            </td>
+                        </tr>
+
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>4</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=DIMENSIONLESS(1,"g/cm3",15,"ft/s",0.836,"cP","2.05","in")</p>
+                            </td>
+                            <td>
+                                <p>Returns an error. The correct parameters are specified for Reynolds number; however, the denominator arguments for viscosity are entered before the numerator arguments for diameter(#VALUE!).</p>
+                            </td>
+                        </tr>
+
+    
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>

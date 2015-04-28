@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>PIPEFLOW</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height: 50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+        
+        .syntax {
+            padding-left: 10px;
+            padding-top: 6px;
+            padding-bottom: 10px;
+            line-height: 24px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col {
+            Width: 100px;
+        }
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>PIPEFLOW function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>PIPEFLOW</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Converts between flow rate and velocity in a pipe.
+                <div style="text-align:center;"><img src="PipeFlow.png">
+                </div></p>
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax"><u><i>To convert volume rate to velocity:</i></u><br>PIPEFLOW(unit, diameter, diameter_unit, velocity, velocity_unit)</p>
+                <p class="syntax"><u><i>To convert velocity to volume rate :</i></u><br>PIPEFLOW(unit, diameter, diameter_unit, volume_rate, volume_rate_unit</p>
+                <p>The PIPEFLOW function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Unit</b> &nbsp; &nbsp; Required. Units for result.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Diameter</b> &nbsp; &nbsp; Required. The diameter of the pipe.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Diameter_unit</b> &nbsp; &nbsp; Units for Diameter.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Velocity</b> &nbsp; &nbsp; The velocity of the fluid in the pipe.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Velocity_unit</b> &nbsp; &nbsp; Units for Velocity
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Volume_rate</b> &nbsp; &nbsp; The volume flow rate of the fluid in the pipe.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Volume_rate_unit</b> &nbsp; &nbsp; Units for Voume_rate
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+
+
+                <br>
+
+                <section>
+                    <h2>Remarks</h2>
+                    <ul>
+                        <li>
+                            <p>If the input data types or units are incorrect, PIPEFLOW returns the #VALUE! error value.</p>
+                        </li>
+                        <li>
+                            <p>Unit names and prefixes are case-sensitive.</p>
+                        </li>
+                        <li>
+                            <p>Diameter, velocity, and volume flow value/unit pairs can be entered in either order.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <br>
+                <br>
+
+                <section>
+                    <h2>Example</h2>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td class="row_label_col">
+                                    <p></p>
+                                </td>
+                                <td class="formula_col">
+                                    <p><b>A</b>
+                                    </p>
+                                </td>
+                                <td class="result_col">
+                                    <p><b>B</b>
+                                    </p>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p><b>1</b>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p><b>Formula</b>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p><b>Description (Result)</b>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr class="shaded">
+                                <td>
+                                    <p><b>2</b>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>=PIPEFLOW("ft/s", 2, "in", 45, "gpm")</p>
+                                </td>
+                                <td>
+                                    <p>Returns the velocity in ft/s of 45 gpm through a 2 inch ID pipe (4.59).</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p><b>3</b>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>=PIPEFLOW("m3/d", 12, "ft/s", 0.5, "in")</p>
+                                </td>
+                                <td>
+                                    <p>Returns the volume flow rate in m3/d of a fluid flowing at 12 ft/s through a 1/2 inch ID pipe (40.0).</p>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>

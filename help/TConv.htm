@@ -1,0 +1,287 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>TCONV</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height:50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+                
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;   
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col{
+            Width: 100px;
+        }
+        
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>TCONV function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>TCONV</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Converts a number from one temperature <b>scale</b> to another. This is distinguished from the CONV function, which can be used to convert temperature differentials, but not temperature scales.</p>
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax">TCONV(number, from_unit, to_unit)</p>
+                <p>The TCONV function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Number</b> &nbsp; &nbsp; Required. The value in from_units to convert.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>From_unit</b> &nbsp; &nbsp; Required. The units for number.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>To_unit</b> &nbsp; &nbsp; Required. The units for the result.
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+
+                <p> TCONV accepts the following text values (in quotation marks) for from_unit and to_unit.</p>
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Temperature scale</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Celsius
+                                </p>
+                            </td>
+                            <td>
+                                <p>"degC"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>Kelvin
+                                </p>
+                            </td>
+                            <td>
+                                <p>"K"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Fahrenheit
+                                </p>
+                            </td>
+                            <td>
+                                <p>"degF"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>Rankine
+                                </p>
+                            </td>
+                            <td>
+                                <p>"degR"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Remarks</h2>
+                <ul>
+                    <li>
+                        <p>If the input data types are incorrect or the units do not exist, TCONV returns the #VALUE! error value.</p>
+                    </li>
+                    <li>
+                        <p>Unit names and prefixes are case-sensitive.</p>
+                    </li>
+
+                </ul>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Example</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="row_label_col">
+                                <p></p>
+                            </td>
+                            <td class= "formula_col">
+                                <p><b>A</b>
+                                </p>
+                            </td>
+                            <td class= "result_col">
+                                <p><b>B</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b>1</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Formula</b></p>
+                            </td>
+                            <td>
+                                <p><b>Description (Result)</b></p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>2</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=TCONV(0, "degC", "degF")</p>
+                            </td>
+                            <td>
+                                <p>Converts 0 degC to degF (32).</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><b>3</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=TCONV(298, "K", "degF")</p>
+                            </td>
+                            <td>
+                                <p>Converts 298K to degF (76.73).</p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>4</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=CONV(0, "degC", "degF")</p>
+                            </td>
+                            <td>
+                                <p>Converts a temperature differential of 0 degC to degF (0).</p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>

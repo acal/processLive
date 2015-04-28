@@ -1,0 +1,1999 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>Conv</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height: 50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+        
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col {
+            Width: 100px;
+        }
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>CONV function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>CONV</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Converts a number from one measurement system to another. CONV accepts more than 150 unit distinct units, not including compound units which are also acceptable. </p>
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax">CONV(number, from_unit, to_unit)</p>
+                <p>The CONV function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Number</b> &nbsp; &nbsp; Required. The value in from_units to convert.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>From_unit</b> &nbsp; &nbsp; Required. The units for number.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>To_unit</b> &nbsp; &nbsp; Required. The units for the result.
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+
+                <p> CONV accepts the following text values (in quotation marks) for from_unit and to_unit. Combinations of these units are also acceptable, ie. "ft3/s". See the 'Remarks' section for more information.</p>
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Mass</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>atomic mass unit
+                                </p>
+                            </td>
+                            <td>
+                                <p>"u"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>grain
+                                </p>
+                            </td>
+                            <td>
+                                <p>"gr"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>gram *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"g"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>ounce
+                                </p>
+                            </td>
+                            <td>
+                                <p>"oz"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>pound
+                                </p>
+                            </td>
+                            <td>
+                                <p>"lb"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>slug
+                                </p>
+                            </td>
+                            <td>
+                                <p>"slug"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>short ton
+                                </p>
+                            </td>
+                            <td>
+                                <p>"ton"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>metric ton
+                                </p>
+                            </td>
+                            <td>
+                                <p>"t"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Time</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>second *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"s"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>minute
+                                </p>
+                            </td>
+                            <td>
+                                <p>"min"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>hour
+                                </p>
+                            </td>
+                            <td>
+                                <p>"h"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>day
+                                </p>
+                            </td>
+                            <td>
+                                <p>"d"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>week
+                                </p>
+                            </td>
+                            <td>
+                                <p>"wk"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>month
+                                </p>
+                            </td>
+                            <td>
+                                <p>"mon"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>year
+                                </p>
+                            </td>
+                            <td>
+                                <p>"yr"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Quantity</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>gram mole *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"mol", "gmol"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>elementary entities
+                                </p>
+                            </td>
+                            <td>
+                                <p>"ee"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>kilogram mole
+                                </p>
+                            </td>
+                            <td>
+                                <p>"kgmol"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>pound mole
+                                </p>
+                            </td>
+                            <td>
+                                <p>"lbmol"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>standard cubic foot
+                                </p>
+                            </td>
+                            <td>
+                                <p>"scf"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>standard cubic meter
+                                </p>
+                            </td>
+                            <td>
+                                <p>"scm"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>hundred standard cubic feet
+                                </p>
+                            </td>
+                            <td>
+                                <p>"ccf"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>thousand standard cubic feet
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Mcf", "mcf"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>million standard cubic feet
+                                </p>
+                            </td>
+                            <td>
+                                <p>"MMcf", "mmcf"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>billion standard cubic feet
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Bcf"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>standard liter
+                                </p>
+                            </td>
+                            <td>
+                                <p>"sL"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>standard cubic centimeter
+                                </p>
+                            </td>
+                            <td>
+                                <p>"scc"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Quantity flow </b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>standard liter per minute
+                                </p>
+                            </td>
+                            <td>
+                                <p>"sLpm"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>standard liter per hour
+                                </p>
+                            </td>
+                            <td>
+                                <p>"sLph"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>standard liter per day
+                                </p>
+                            </td>
+                            <td>
+                                <p>"sLpd"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>standard cubic centimeter per minute
+                                </p>
+                            </td>
+                            <td>
+                                <p>"sccm"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>standard cubic feet per minute
+                                </p>
+                            </td>
+                            <td>
+                                <p>"scfm"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>standard cubic feet per hour
+                                </p>
+                            </td>
+                            <td>
+                                <p>"scfh"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>standard cubic feet per day
+                                </p>
+                            </td>
+                            <td>
+                                <p>"scfd"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>thousand standard cubic feet per day
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Mcfd", "mcfd"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>million standard cubic feet per day
+                                </p>
+                            </td>
+                            <td>
+                                <p>"MMcfd", "mmcfd"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>billion standard cubic feet per day
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Bcfd", "bcfd"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Temperature</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>kelvin
+                                </p>
+                            </td>
+                            <td>
+                                <p>"K"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>degree Celsius
+                                </p>
+                            </td>
+                            <td>
+                                <p>"degC"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>degree Rankine
+                                </p>
+                            </td>
+                            <td>
+                                <p>"degR"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>degree Fahrenheit
+                                </p>
+                            </td>
+                            <td>
+                                <p>"degF"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Length</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>meter *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"m"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>angstrom
+                                </p>
+                            </td>
+                            <td>
+                                <p>"ang"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>mil
+                                </p>
+                            </td>
+                            <td>
+                                <p>"mil"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>inch
+                                </p>
+                            </td>
+                            <td>
+                                <p>"in"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>foot
+                                </p>
+                            </td>
+                            <td>
+                                <p>"ft"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>yard
+                                </p>
+                            </td>
+                            <td>
+                                <p>"yd"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>nautical mile
+                                </p>
+                            </td>
+                            <td>
+                                <p>"nmi"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>mile
+                                </p>
+                            </td>
+                            <td>
+                                <p>"mi"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>fathom
+                                </p>
+                            </td>
+                            <td>
+                                <p>"ftm"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Speed</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>mile per hour
+                                </p>
+                            </td>
+                            <td>
+                                <p>"mph"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>kilometer per hour
+                                </p>
+                            </td>
+                            <td>
+                                <p>"kmph"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Area</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>acre
+                                </p>
+                            </td>
+                            <td>
+                                <p>"acre"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>hectare
+                                </p>
+                            </td>
+                            <td>
+                                <p>"ha"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Volume</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>liter *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"L"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>ounce
+                                </p>
+                            </td>
+                            <td>
+                                <p>"floz"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>quart
+                                </p>
+                            </td>
+                            <td>
+                                <p>"qt"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>gallon
+                                </p>
+                            </td>
+                            <td>
+                                <p>"gal"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>barrel
+                                </p>
+                            </td>
+                            <td>
+                                <p>"bbl"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>thousand barrels
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Mbbl"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>million barrels
+                                </p>
+                            </td>
+                            <td>
+                                <p>"MMbbl"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Volume rate</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>actual cubic feet per minute
+                                </p>
+                            </td>
+                            <td>
+                                <p>"acfm"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>gallons per minute
+                                </p>
+                            </td>
+                            <td>
+                                <p>"gpm"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>gallons per hour
+                                </p>
+                            </td>
+                            <td>
+                                <p>"gph"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>gallonds per day
+                                </p>
+                            </td>
+                            <td>
+                                <p>"gpd"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Liters per minute
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Lpm"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>Liters per hour
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Lph"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Liters per day
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Lpd"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Force</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>newton *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"N"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>dyne
+                                </p>
+                            </td>
+                            <td>
+                                <p>"dyn"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>pound-force
+                                </p>
+                            </td>
+                            <td>
+                                <p>"lbf"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>kilogram-force
+                                </p>
+                            </td>
+                            <td>
+                                <p>"kgf"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Energy</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>joule *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"J"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>erg
+                                </p>
+                            </td>
+                            <td>
+                                <p>"erg"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>electron volt
+                                </p>
+                            </td>
+                            <td>
+                                <p>"eV"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>calorie
+                                </p>
+                            </td>
+                            <td>
+                                <p>"cal"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>British thermal unit
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Btu", "btu", "BTU"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>kilocalorie
+                                </p>
+                            </td>
+                            <td>
+                                <p>"kcal"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>therm
+                                </p>
+                            </td>
+                            <td>
+                                <p>"thm"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>ton of refrigeration
+                                </p>
+                            </td>
+                            <td>
+                                <p>"TR"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>thousand British thermal units
+                                </p>
+                            </td>
+                            <td>
+                                <p>"MBtu", "MBTU", "Mbtu"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>million British thermal unit
+                                </p>
+                            </td>
+                            <td>
+                                <p>"MMBtu", "MMBTU", "MMbtu"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Power</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>watt *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"W"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>horse power
+                                </p>
+                            </td>
+                            <td>
+                                <p>"hp", "Hp", "HP"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Pressure</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>pascal *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Pa"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>bar
+                                </p>
+                            </td>
+                            <td>
+                                <p>"bar"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>millimeter Hg
+                                </p>
+                            </td>
+                            <td>
+                                <p>"mmHg"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>cmHg
+                                </p>
+                            </td>
+                            <td>
+                                <p>"cmHg"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>torr
+                                </p>
+                            </td>
+                            <td>
+                                <p>"torr"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>foot water
+                                </p>
+                            </td>
+                            <td>
+                                <p>"ftH2O"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>inch water
+                                </p>
+                            </td>
+                            <td>
+                                <p>"inH2O"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>inch Hg
+                                </p>
+                            </td>
+                            <td>
+                                <p>"inHg"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>pound per square inch
+                                </p>
+                            </td>
+                            <td>
+                                <p>"psi"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>meter water
+                                </p>
+                            </td>
+                            <td>
+                                <p>"mH2O"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>kilogram per square centimeter
+                                </p>
+                            </td>
+                            <td>
+                                <p>"kgcm2"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>atmosphere
+                                </p>
+                            </td>
+                            <td>
+                                <p>"atm"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>stokes *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"St"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Dynamic viscosity</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>poise *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"P"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Angle</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>radian
+                                </p>
+                            </td>
+                            <td>
+                                <p>"rad"</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>degree
+                                </p>
+                            </td>
+                            <td>
+                                <p>"deg"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>turn
+                                </p>
+                            </td>
+                            <td>
+                                <p>"rev"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Electric potential</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>volt *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"V"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Electrical charge</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>coulomb *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"C"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Current</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>ampere *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"A"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Resistance</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Ohm *
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Ohm"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Electrical capacitance</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Farad
+                                </p>
+                            </td>
+                            <td>
+                                <p>"F"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Electrical conductance</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>siemens
+                                </p>
+                            </td>
+                            <td>
+                                <p>"S"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Magnetic flux</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>weber
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Wb"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Magnetic field strength</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Tesla
+                                </p>
+                            </td>
+                            <td>
+                                <p>"T"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Inductance</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Henry
+                                </p>
+                            </td>
+                            <td>
+                                <p>"H"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Luminous intensity</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>candl
+                                </p>
+                            </td>
+                            <td>
+                                <p>"cd"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Luminous flux</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>lumen
+                                </p>
+                            </td>
+                            <td>
+                                <p>"lm"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Illuminance</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>lux
+                                </p>
+                            </td>
+                            <td>
+                                <p>"lx"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Radioactivity</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Becquerel
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Bq"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Absorbed dose</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>gray
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Gy"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Equivalent dose</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Sievert
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Sv"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Catalytic activity</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>katal
+                                </p>
+                            </td>
+                            <td>
+                                <p>"kat"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Frequency</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>hertz
+                                </p>
+                            </td>
+                            <td>
+                                <p>"Hz"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Gas permeability</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>From_unit or To_unit</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>barrer
+                                </p>
+                            </td>
+                            <td>
+                                <p>"barrer"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <br>
+                <br>
+
+                <p>The following abbreviated unit prefixes can be prepended to any metric unit, marked with an '*' above.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="prefix_table">
+                                <p>
+                                    <b>Prefix</b>
+                                </p>
+                            </td>
+                            <td class="prefix_table">
+                                <p>
+                                    <b>Multiplier</b>
+                                </p>
+                            </td>
+                            <td class="prefix_table">
+                                <p>
+                                    <b>Abbreviation</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>tera</p>
+                            </td>
+                            <td>
+                                <p>1E+12</p>
+                            </td>
+                            <td>
+                                <p>"T"</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>giga</p>
+                            </td>
+                            <td>
+                                <p>1E+09</p>
+                            </td>
+                            <td>
+                                <p>"G"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>mega</p>
+                            </td>
+                            <td>
+                                <p>1E+06</p>
+                            </td>
+                            <td>
+                                <p>"M"</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>kilo</p>
+                            </td>
+                            <td>
+                                <p>1E+03</p>
+                            </td>
+                            <td>
+                                <p>"k"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>hecto</p>
+                            </td>
+                            <td>
+                                <p>1E+02</p>
+                            </td>
+                            <td>
+                                <p>"h"</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>deci</p>
+                            </td>
+                            <td>
+                                <p>1E-01</p>
+                            </td>
+                            <td>
+                                <p>"d"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>centi</p>
+                            </td>
+                            <td>
+                                <p>1E-02</p>
+                            </td>
+                            <td>
+                                <p>"c"</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>milli</p>
+                            </td>
+                            <td>
+                                <p>1E-03</p>
+                            </td>
+                            <td>
+                                <p>"m"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>micro</p>
+                            </td>
+                            <td>
+                                <p>1E-06</p>
+                            </td>
+                            <td>
+                                <p>"u"</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>nano</p>
+                            </td>
+                            <td>
+                                <p>1E-09</p>
+                            </td>
+                            <td>
+                                <p>"n"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>pico</p>
+                            </td>
+                            <td>
+                                <p>1E-12</p>
+                            </td>
+                            <td>
+                                <p>"p"</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>femto</p>
+                            </td>
+                            <td>
+                                <p>1E-15</p>
+                            </td>
+                            <td>
+                                <p>"f"</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>atto</p>
+                            </td>
+                            <td>
+                                <p>1E-18</p>
+                            </td>
+                            <td>
+                                <p>"a"</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Remarks</h2>
+                <ul>
+                    <li>
+                        <p>Exponents can be entered as digits after a unit, for example "m3" will be interpreted as cubic meters, and can be converted to any other combination of units that has the dimensions of volume.</p>
+                    </li>
+                    <li>
+                        <p>If the input data types are incorrect, the units do not exist, or the dimensions of the units do not match, CONV returns the #VALUE! error value.</p>
+                    </li>
+                    <li>
+                        <p>Order of operations is observed in compound units, for example "J/mol-K" is equivalent to "J-K/mol", not "J/(mol-K)".</p>
+                    </li>
+                    <li>
+                        <p>Unit names and prefixes are case-sensitive.</p>
+                    </li>
+                    <li>
+                        <p>Temperature differential conversions can be performed by the CONV function. Temperature scale conversions should use the TCONV function, for example converting a measured temperature.</p>
+                    </li>
+                    <li>
+                        <p>Pressure unit conversions can be performed by the CONV function, for example converting units for pressure drop. Gauge pressure conversions should use the PCONV function.</p>
+                    </li>
+                    <li>
+                        <p>Dashes or asterisks should be used to signify multiplication in compound units, ie. "N-m" or "N*m"</p>
+                    </li>
+                    <li>
+                        <p>A forward slash should be used to signify division in compound units, ie. "m/s"</p>
+                    </li>
+                </ul>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Example</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="row_label_col">
+                                <p></p>
+                            </td>
+                            <td class="formula_col">
+                                <p><b>A</b>
+                                </p>
+                            </td>
+                            <td class="result_col">
+                                <p><b>B</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b>1</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Formula</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Description (Result)</b>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>2</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=CONV(1.0, "lb", "kg")</p>
+                            </td>
+                            <td>
+                                <p>Converts 1 pound mass to kilograms (0.4536).</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><b>3</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=CONV(5.0, "m3", "gal")</p>
+                            </td>
+                            <td>
+                                <p>Converts 5 cubic meters to gallons (1321).</p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>4</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=CONV(8.314, "J/(mol-K)", "L-atm/(mol-K)")</p>
+                            </td>
+                            <td>
+                                <p>Converts the ideal gas constant from J/(mol-K) to L-atm/(mol-K) (0.08208).</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><b>5</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=CONV(3.2, "kg-m/s", "N")</p>
+                            </td>
+                            <td>
+                                <p>Unit dimensions do not match, so an error is returned (#VALUE).</p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>6</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=CONV(140, "lb-(ft/s)2","J")</p>
+                            </td>
+                            <td>
+                                <p>Converts 140 lb-(ft/s)2 to joules (5.900).</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>

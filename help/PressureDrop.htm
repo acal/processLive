@@ -1,0 +1,284 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>PRESSUREDROP</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height: 50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+        
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col {
+            Width: 100px;
+        }
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>PRESSUREDROP function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>PRESSUREDROP</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Implements the Darcy-Weisbach equation to calculate head loss or pressure drop due to friction.</p>
+                <div style="text-align:center;"><img src="PressureDrop1.png">
+                </div>
+                <br>
+                <div style="text-align:center;"><img src="PressureDrop2.png">
+                </div>
+                <br>
+                <div style="text-align:center;"><img src="PressureDrop3.png">
+                </div>
+                                
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax">PRESSUREDROP(unit, D, D_unit, L, L_unit, R, R_unit, Q, Q_unit, visc, visc_unit, dens, dens_unit)</p>
+            
+                <p>The PRESSUREDROP function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Unit</b> &nbsp; &nbsp; Units for result.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            <b>D</b> &nbsp; &nbsp; The diameter of the pipe.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>D_unit</b> &nbsp; &nbsp; The units for D.
+                        </p>
+                    </li><li>
+                        <p>
+                            <b>L</b> &nbsp; &nbsp; The length of the pipe.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>L_unit</b> &nbsp; &nbsp; The units for L.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>R</b> &nbsp; &nbsp; The absolute roughness of the pipe material, see ROUGHNESS function.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>R_unit</b> &nbsp; &nbsp; The units for R.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Q</b> &nbsp; &nbsp; The volume flow rate, mass flow rate, or velocity of the fluid.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Q_unit</b> &nbsp; &nbsp; The units for Q.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Visc</b> &nbsp; &nbsp; The kinematic or dynamic viscosity of the fluid.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Visc_unit</b> &nbsp; &nbsp; The units for Visc.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Dens</b> &nbsp; &nbsp; The density of the fluid.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Dens_unit</b> &nbsp; &nbsp; The unit for Dens.
+                        </p>
+                    </li>
+                </ul>
+
+
+
+
+                <br>
+
+
+                <br>
+
+                <section>
+                    <h2>Remarks</h2>
+                    <ul>
+                        <li>
+                            <p>Value/unit argument pairs can be entered in any order.</p>
+                        </li>
+                        <li>
+                            <p>If the input data types or units are incorrect, PRESSUREDROP returns the #VALUE! error value.</p>
+                        </li>
+                        <li>
+                            <p>Unit names and prefixes are case-sensitive.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <br>
+                <br>
+
+                <section>
+                    <h2>Example</h2>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td class="row_label_col">
+                                    <p></p>
+                                </td>
+                                <td class="formula_col">
+                                    <p><b>A</b>
+                                    </p>
+                                </td>
+                                <td class="result_col">
+                                    <p><b>B</b>
+                                    </p>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p><b>1</b>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p><b>Formula</b>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p><b>Description (Result)</b>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr class="shaded">
+                                <td>
+                                    <p><b>2</b>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>=PRESSUREDROP("psi", 2, "in", 80, "ft",  12, "lb/s", 0.00015, "ft", 1.1, "cP", 700, "kg/m3")</p>
+                                </td>
+                                <td>
+                                    <p>Returns the frictional pressure drop in psi for 80 ft of pipe with an inner diameter of 2 inches and a surface roughness of 0.0015 ft, that is transporting 12 lb/s of a fluid with a viscosity of 1.1 cP and a dnesity fo 0.7 kg/m3 (15.0).</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p><b>3</b>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>=PRESSUREDROP("ft", PIPESIZE("4in Sch40", "ID", "in"), "in", 1.2, "mi", ROUGHNESS("commercial steel", "in"), "in", 1450, "gpm", 1.2, "cP", 940, "kg/m3")</p>
+                                </td>
+                                <td>
+                                    <p>Returns the frictional head loss in feet for 1.2 miles of 4" Sch40 steel pipe, that is transporting 1450 gpm of a fluid with a viscosity of 1.2 cP and a density of 940 kg/m3 (1.10).</p>
+                                </td>
+                            </tr>
+                            
+
+                        </tbody>
+                    </table>
+                </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>

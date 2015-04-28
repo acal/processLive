@@ -70,9 +70,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <?php
   include('partials/_nav.php')
 ?>
-<!--  Searchbar -->
   <br><br><br>
-  <div id="search-bar">
+<!--  Searchbar -->
+ <!-- <div id="search-bar">
           <form id="search" action="#" method="post">
               <div id="label"><label for="search-terms" id="search-label">search</label></div>
               <div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
@@ -80,7 +80,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <script src="js/classie.js"></script>
           <script src="js/search.js"></script> 
   </div>
-
+-->
 <!-- Header section -->
 <header class="process">
    <div class="row">    

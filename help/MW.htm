@@ -1,0 +1,1982 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>MW</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height: 50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+        
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col {
+            Width: 100px;
+        }
+        
+        .col_width_c {
+            width: 150px;
+        }
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>MW function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>MW</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Returns the molecular weight of the compound with the specified molecular formula. Units other than "g/mol" can be specified if desired.</p>
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax">MW(formula, [units])</p>
+                <p>The MW function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Formula</b> &nbsp; &nbsp; Required. The molecular formula of the compound.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Units</b> &nbsp; &nbsp; Optional. The desired units for the molecular weight. Default is "g/mol".
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+
+                <p> MW accepts the following text values (in quotation marks) for formula.</p>
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="col_width_c">
+                                <p><b>Atomic no.</b>
+                                </p>
+                            </td>
+                            <td class="col_width_c">
+                                <p><b>Name</b>
+                                </p>
+                            </td>
+                            <td class="col_width_c">
+                                <p><b>Symbol</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="Shaded">
+                            <td>
+                                <p>1
+                                </p>
+                            </td>
+                            <td>
+                                <p>Hydrogen
+                                </p>
+                            </td>
+                            <td>
+                                <p>H</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2
+                                </p>
+                            </td>
+                            <td>
+                                <p>Helium
+                                </p>
+                            </td>
+                            <td>
+                                <p>He</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>3
+                                </p>
+                            </td>
+                            <td>
+                                <p>Lithium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Li</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>4
+                                </p>
+                            </td>
+                            <td>
+                                <p>Beryllium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Be</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>5
+                                </p>
+                            </td>
+                            <td>
+                                <p>Boron
+                                </p>
+                            </td>
+                            <td>
+                                <p>B</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>6
+                                </p>
+                            </td>
+                            <td>
+                                <p>Carbon
+                                </p>
+                            </td>
+                            <td>
+                                <p>C</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>7
+                                </p>
+                            </td>
+                            <td>
+                                <p>Nitrogen
+                                </p>
+                            </td>
+                            <td>
+                                <p>N</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>8
+                                </p>
+                            </td>
+                            <td>
+                                <p>Oxygen
+                                </p>
+                            </td>
+                            <td>
+                                <p>O</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>9
+                                </p>
+                            </td>
+                            <td>
+                                <p>Fluorine
+                                </p>
+                            </td>
+                            <td>
+                                <p>F</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>10
+                                </p>
+                            </td>
+                            <td>
+                                <p>Neon
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ne</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>11
+                                </p>
+                            </td>
+                            <td>
+                                <p>Sodium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Na</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>12
+                                </p>
+                            </td>
+                            <td>
+                                <p>Magnesium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Mg</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>13
+                                </p>
+                            </td>
+                            <td>
+                                <p>Aluminium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Al</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>14
+                                </p>
+                            </td>
+                            <td>
+                                <p>Silicon
+                                </p>
+                            </td>
+                            <td>
+                                <p>Si</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>15
+                                </p>
+                            </td>
+                            <td>
+                                <p>Phosphorus
+                                </p>
+                            </td>
+                            <td>
+                                <p>P</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>16
+                                </p>
+                            </td>
+                            <td>
+                                <p>Sulfur
+                                </p>
+                            </td>
+                            <td>
+                                <p>S</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>17
+                                </p>
+                            </td>
+                            <td>
+                                <p>Chlorine
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cl</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>18
+                                </p>
+                            </td>
+                            <td>
+                                <p>Argon
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ar</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>19
+                                </p>
+                            </td>
+                            <td>
+                                <p>Potassium
+                                </p>
+                            </td>
+                            <td>
+                                <p>K</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>20
+                                </p>
+                            </td>
+                            <td>
+                                <p>Calcium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ca</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>21
+                                </p>
+                            </td>
+                            <td>
+                                <p>Scandium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Sc</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>22
+                                </p>
+                            </td>
+                            <td>
+                                <p>Titanium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ti</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>23
+                                </p>
+                            </td>
+                            <td>
+                                <p>Vanadium
+                                </p>
+                            </td>
+                            <td>
+                                <p>V</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>24
+                                </p>
+                            </td>
+                            <td>
+                                <p>Chromium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cr</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>25
+                                </p>
+                            </td>
+                            <td>
+                                <p>Manganese
+                                </p>
+                            </td>
+                            <td>
+                                <p>Mn</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>26
+                                </p>
+                            </td>
+                            <td>
+                                <p>Iron
+                                </p>
+                            </td>
+                            <td>
+                                <p>Fe</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>27
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cobalt
+                                </p>
+                            </td>
+                            <td>
+                                <p>Co</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>28
+                                </p>
+                            </td>
+                            <td>
+                                <p>Nickel
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ni</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>29
+                                </p>
+                            </td>
+                            <td>
+                                <p>Copper
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cu</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>30
+                                </p>
+                            </td>
+                            <td>
+                                <p>Zinc
+                                </p>
+                            </td>
+                            <td>
+                                <p>Zn</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>31
+                                </p>
+                            </td>
+                            <td>
+                                <p>Gallium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ga</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>32
+                                </p>
+                            </td>
+                            <td>
+                                <p>Germanium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ge</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>33
+                                </p>
+                            </td>
+                            <td>
+                                <p>Arsenic
+                                </p>
+                            </td>
+                            <td>
+                                <p>As</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>34
+                                </p>
+                            </td>
+                            <td>
+                                <p>Selenium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Se</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>35
+                                </p>
+                            </td>
+                            <td>
+                                <p>Bromine
+                                </p>
+                            </td>
+                            <td>
+                                <p>Br</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>36
+                                </p>
+                            </td>
+                            <td>
+                                <p>Krypton
+                                </p>
+                            </td>
+                            <td>
+                                <p>Kr</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>37
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rubidium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rb</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>38
+                                </p>
+                            </td>
+                            <td>
+                                <p>Strontium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Sr</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>39
+                                </p>
+                            </td>
+                            <td>
+                                <p>Yttrium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Y</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>40
+                                </p>
+                            </td>
+                            <td>
+                                <p>Zirconium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Zr</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>41
+                                </p>
+                            </td>
+                            <td>
+                                <p>Niobium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Nb</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>42
+                                </p>
+                            </td>
+                            <td>
+                                <p>Molybdenum
+                                </p>
+                            </td>
+                            <td>
+                                <p>Mo</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>43
+                                </p>
+                            </td>
+                            <td>
+                                <p>Technetium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Tc</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>44
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ruthenium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ru</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>45
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rhodium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rh</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>46
+                                </p>
+                            </td>
+                            <td>
+                                <p>Palladium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Pd</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>47
+                                </p>
+                            </td>
+                            <td>
+                                <p>Silver
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ag</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>48
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cadmium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cd</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>49
+                                </p>
+                            </td>
+                            <td>
+                                <p>Indium
+                                </p>
+                            </td>
+                            <td>
+                                <p>In</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>50
+                                </p>
+                            </td>
+                            <td>
+                                <p>Tin
+                                </p>
+                            </td>
+                            <td>
+                                <p>Sn</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>51
+                                </p>
+                            </td>
+                            <td>
+                                <p>Antimony
+                                </p>
+                            </td>
+                            <td>
+                                <p>Sb</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>52
+                                </p>
+                            </td>
+                            <td>
+                                <p>Tellurium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Te</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>53
+                                </p>
+                            </td>
+                            <td>
+                                <p>Iodine
+                                </p>
+                            </td>
+                            <td>
+                                <p>I</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>54
+                                </p>
+                            </td>
+                            <td>
+                                <p>Xenon
+                                </p>
+                            </td>
+                            <td>
+                                <p>Xe</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>55
+                                </p>
+                            </td>
+                            <td>
+                                <p>Caesium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cs</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>56
+                                </p>
+                            </td>
+                            <td>
+                                <p>Barium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ba</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>57
+                                </p>
+                            </td>
+                            <td>
+                                <p>Lanthanum
+                                </p>
+                            </td>
+                            <td>
+                                <p>La</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>58
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cerium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ce</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>59
+                                </p>
+                            </td>
+                            <td>
+                                <p>Praseodymium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Pr</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>60
+                                </p>
+                            </td>
+                            <td>
+                                <p>Neodymium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Nd</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>61
+                                </p>
+                            </td>
+                            <td>
+                                <p>Promethium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Pm</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>62
+                                </p>
+                            </td>
+                            <td>
+                                <p>Samarium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Sm</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>63
+                                </p>
+                            </td>
+                            <td>
+                                <p>Europium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Eu</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>64
+                                </p>
+                            </td>
+                            <td>
+                                <p>Gadolinium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Gd</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>65
+                                </p>
+                            </td>
+                            <td>
+                                <p>Terbium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Tb</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>66
+                                </p>
+                            </td>
+                            <td>
+                                <p>Dysprosium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Dy</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>67
+                                </p>
+                            </td>
+                            <td>
+                                <p>Holmium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ho</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>68
+                                </p>
+                            </td>
+                            <td>
+                                <p>Erbium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Er</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>69
+                                </p>
+                            </td>
+                            <td>
+                                <p>Thulium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Tm</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>70
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ytterbium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Yb</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>71
+                                </p>
+                            </td>
+                            <td>
+                                <p>Lutetium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Lu</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>72
+                                </p>
+                            </td>
+                            <td>
+                                <p>Hafnium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Hf</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>73
+                                </p>
+                            </td>
+                            <td>
+                                <p>Tantalum
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ta</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>74
+                                </p>
+                            </td>
+                            <td>
+                                <p>Tungsten
+                                </p>
+                            </td>
+                            <td>
+                                <p>W</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>75
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rhenium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Re</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>76
+                                </p>
+                            </td>
+                            <td>
+                                <p>Osmium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Os</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>77
+                                </p>
+                            </td>
+                            <td>
+                                <p>Iridium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ir</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>78
+                                </p>
+                            </td>
+                            <td>
+                                <p>Platinum
+                                </p>
+                            </td>
+                            <td>
+                                <p>Pt</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>79
+                                </p>
+                            </td>
+                            <td>
+                                <p>Gold
+                                </p>
+                            </td>
+                            <td>
+                                <p>Au</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>80
+                                </p>
+                            </td>
+                            <td>
+                                <p>Mercury
+                                </p>
+                            </td>
+                            <td>
+                                <p>Hg</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>81
+                                </p>
+                            </td>
+                            <td>
+                                <p>Thallium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Tl</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>82
+                                </p>
+                            </td>
+                            <td>
+                                <p>Lead
+                                </p>
+                            </td>
+                            <td>
+                                <p>Pb</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>83
+                                </p>
+                            </td>
+                            <td>
+                                <p>Bismuth
+                                </p>
+                            </td>
+                            <td>
+                                <p>Bi</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>84
+                                </p>
+                            </td>
+                            <td>
+                                <p>Polonium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Po</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>85
+                                </p>
+                            </td>
+                            <td>
+                                <p>Astatine
+                                </p>
+                            </td>
+                            <td>
+                                <p>At</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>86
+                                </p>
+                            </td>
+                            <td>
+                                <p>Radon
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rn</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>87
+                                </p>
+                            </td>
+                            <td>
+                                <p>Francium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Fr</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>88
+                                </p>
+                            </td>
+                            <td>
+                                <p>Radium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ra</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>89
+                                </p>
+                            </td>
+                            <td>
+                                <p>Actinium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ac</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>90
+                                </p>
+                            </td>
+                            <td>
+                                <p>Thorium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Th</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>91
+                                </p>
+                            </td>
+                            <td>
+                                <p>Protactinium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Pa</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>92
+                                </p>
+                            </td>
+                            <td>
+                                <p>Uranium
+                                </p>
+                            </td>
+                            <td>
+                                <p>U</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>93
+                                </p>
+                            </td>
+                            <td>
+                                <p>Neptunium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Np</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>94
+                                </p>
+                            </td>
+                            <td>
+                                <p>Plutonium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Pu</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>95
+                                </p>
+                            </td>
+                            <td>
+                                <p>Americium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Am</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>96
+                                </p>
+                            </td>
+                            <td>
+                                <p>Curium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cm</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>97
+                                </p>
+                            </td>
+                            <td>
+                                <p>Berkelium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Bk</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>98
+                                </p>
+                            </td>
+                            <td>
+                                <p>Californium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cf</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>99
+                                </p>
+                            </td>
+                            <td>
+                                <p>Einsteinium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Es</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>100
+                                </p>
+                            </td>
+                            <td>
+                                <p>Fermium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Fm</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>101
+                                </p>
+                            </td>
+                            <td>
+                                <p>Mendelevium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Md</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>102
+                                </p>
+                            </td>
+                            <td>
+                                <p>Nobelium
+                                </p>
+                            </td>
+                            <td>
+                                <p>No</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>103
+                                </p>
+                            </td>
+                            <td>
+                                <p>Lawrencium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Lr</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>104
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rutherfordium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rf</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>105
+                                </p>
+                            </td>
+                            <td>
+                                <p>Dubnium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Db</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>106
+                                </p>
+                            </td>
+                            <td>
+                                <p>Seaborgium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Sg</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>107
+                                </p>
+                            </td>
+                            <td>
+                                <p>Bohrium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Bh</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>108
+                                </p>
+                            </td>
+                            <td>
+                                <p>Hassium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Hs</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>109
+                                </p>
+                            </td>
+                            <td>
+                                <p>Meitnerium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Mt</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>110
+                                </p>
+                            </td>
+                            <td>
+                                <p>Darmstadtium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ds</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>111
+                                </p>
+                            </td>
+                            <td>
+                                <p>Roentgenium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Rg</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>112
+                                </p>
+                            </td>
+                            <td>
+                                <p>Copernicium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Cn</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>113
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ununtrium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Uut</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>114
+                                </p>
+                            </td>
+                            <td>
+                                <p>Flerovium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Fl</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>115
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ununpentium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Uup</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>116
+                                </p>
+                            </td>
+                            <td>
+                                <p>Livermorium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Lv</p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>117
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ununseptium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Uus</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>118
+                                </p>
+                            </td>
+                            <td>
+                                <p>Ununoctium
+                                </p>
+                            </td>
+                            <td>
+                                <p>Uuo</p>
+                            </td>
+                        </tr>
+                    </tbody>
+
+
+                </table>
+
+
+                <br>
+                <br>
+
+                <p>Organic group symbols:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="prefix_table">
+                                <p>
+                                    <b>Name</b>
+                                </p>
+                            </td>
+                            <td class="prefix_table">
+                                <p>
+                                    <b>Symbol</b>
+                                </p>
+                            </td>
+                            <td class="prefix_table">
+                                <p>
+                                    <b>Formula</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Acetyl</p>
+                            </td>
+                            <td>
+                                <p>AC</p>
+                            </td>
+                            <td>
+                                <p>C2H3O</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>Benzoyl</p>
+                            </td>
+                            <td>
+                                <p>Bz</p>
+                            </td>
+                            <td>
+                                <p>C6H5CO</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Benzyl</p>
+                            </td>
+                            <td>
+                                <p>Bn</p>
+                            </td>
+                            <td>
+                                <p>C6H5C2</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>Butyl</p>
+                            </td>
+                            <td>
+                                <p>Bu</p>
+                            </td>
+                            <td>
+                                <p>C4H9</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Cyclopentadienyl</p>
+                            </td>
+                            <td>
+                                <p>Cp</p>
+                            </td>
+                            <td>
+                                <p>C5H5</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>Cyclohexyl</p>
+                            </td>
+                            <td>
+                                <p>Cy</p>
+                            </td>
+                            <td>
+                                <p>C6H11</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Ethyl</p>
+                            </td>
+                            <td>
+                                <p>Et</p>
+                            </td>
+                            <td>
+                                <p>C2H5</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>Methyl</p>
+                            </td>
+                            <td>
+                                <p>Me</p>
+                            </td>
+                            <td>
+                                <p>CH3</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Mesyl</p>
+                            </td>
+                            <td>
+                                <p>Ms</p>
+                            </td>
+                            <td>
+                                <p>CH3SO2</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>Phenyl</p>
+                            </td>
+                            <td>
+                                <p>Ph</p>
+                            </td>
+                            <td>
+                                <p>C6H5</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Propyl</p>
+                            </td>
+                            <td>
+                                <p>Pr</p>
+                            </td>
+                            <td>
+                                <p>C3H7</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>Triflyl</p>
+                            </td>
+                            <td>
+                                <p>Tf</p>
+                            </td>
+                            <td>
+                                <p>F3CSO2</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Trityl</p>
+                            </td>
+                            <td>
+                                <p>Tr</p>
+                            </td>
+                            <td>
+                                <p>Ph3C</p>
+                            </td>
+                        </tr>
+                        <tr class="shaded">
+                            <td>
+                                <p>Tosyl</p>
+                            </td>
+                            <td>
+                                <p>Ts</p>
+                            </td>
+                            <td>
+                                <p>CH3C6H4SO2</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Remarks</h2>
+                <ul>
+                    <li>
+                        <p>If the input data types are incorrect, do not exist, or units are of the wrong dimensions, MW will return #VALUE! error.</p>
+                    </li>
+                    <li>
+                        <p>Formulas and prefixes are case-sensitive.</p>
+                    </li>
+                    <li>
+                        <p>Hydrate and similar formulas are acceptable, see example 3 below.</p>
+                    </li>
+                    <li>
+                        <p>See 'Remarks' section for CONV function regarding acceptable units arguments.</p>
+                    </li>
+                    <li>
+                        <p>Source:  IUPAC</p>
+                    </li>
+                </ul>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Example</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="row_label_col">
+                                <p></p>
+                            </td>
+                            <td class="formula_col">
+                                <p><b>A</b>
+                                </p>
+                            </td>
+                            <td class="result_col">
+                                <p><b>B</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b>1</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Formula</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Description (Result)</b>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>2</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=MW("Na2SO4")</p>
+                            </td>
+                            <td>
+                                <p>Returns the molecular weight of sodium sulfate in units of g/mol (142.0...).</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><b>3</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=MW("(CH3)3N","lb/kmol")</p>
+                            </td>
+                            <td>
+                                <p>Returns the molecular weight of trimethylamine in units of lb/kmol (130.3...).</p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>4</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=MW("Na2SO4-10H2O")</p>
+                            </td>
+                            <td>
+                                <p>Returns the molecular weight of sodium sulfate decahydrate in units of g/mol (322.2...).</p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>

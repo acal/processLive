@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>CONDITIONS</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height: 50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+        
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col {
+            Width: 100px;
+        }
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>Conditions Menu</h1>
+
+            <section>
+                <p>This article describes the function of the <b>Conditions</b> menu in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>The Conditions menu allows the user to specify setpoints for Standard pressure, Standard temperature, Elevation, and Ambient Pressure. These are values that are used in other ProcessUtilities functions.</p>
+                <br>
+                <div style="text-align:center;"><img src="Conditions_SS.png">
+                </div>
+            </section>
+
+            <br>
+
+            <section>
+                <h2>'Set standard conditions' sub-menu</h2>
+                <p>This submenu allows the user to specify values and units for Standard pressure and Standard Temperature. These values are used by functions including CONV, to convert between standard volume units (sL, scf, Mcf, etc.) and molar units (mol, kmol, lbmol, etc.).</p>
+
+            </section>
+
+            <br>
+
+            <section>
+                <h2>'Set elevation or ambient pressure' sub-menu</h2>
+                <p>This submenu allows the user to specify values and units Elevation and Ambient Pressure. These values are used by functions including PCONV, to convert between gauge pressure (psig, barg, etc.) and absolute pressure (psi, bar, mmHg, etc.).</p>
+                <p>Either Elevation or Ambient pressure may be specified, but not both. The value that is not specified is calculated using the equation below; where Po is pressure at sea level, L is temperature lapse rate, h is elevation, To is temperature at sea level, g is Earth-surface gravitational acceleration, M is the molar mass of dry air, and R is the Universal Gas Constant.</p>
+                <div style="text-align:center;"><img src="Elevation.png">
+                </div>
+            </section>
+            <br>
+
+            <section>
+                <h2>Remarks</h2>
+                <ul>
+                    <li>
+                        <p>Setpoints specified in the Conditions menu are stored by Excel as named ranges, and will be saved along with the worksheet.</p>
+                    </li>
+                </ul>
+            </section>
+
+
+
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>

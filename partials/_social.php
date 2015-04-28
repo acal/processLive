@@ -7,6 +7,7 @@
         <a href="https://www.linkedin.com/company/processutilities" class="btn btn-default" role="button" target="_blank"><i class="icon icon-linkedin-square"></i> Follow</a>
         <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/ProcessUtilities&title=ProcessUtilities Excel Add-in for Engineers" class="btn btn-default" role="button" target="_blank"><i class="icon icon-facebook"></i> Share</a>
         <a href="http://www.linkedin.com/shareArticle?mini=true&url=[URL]&title=[TITLE]&source=[SOURCE/DOMAIN]" class="btn btn-default" role="button" target="_blank"><i class="icon icon-linkedin"></i> Share</a>
-        <a href="https://github.com/ProcessUtilities/documentation" class="btn btn-default" role="button" target="_blank"><i class="icon icon-github"></i></i> Documentation</a>
+        <a href="https://github.com/ProcessUtilities/documentation" class="btn btn-default" role="button" target="_blank"><i class="icon icon-github"></i> Documentation</a>
+        <a href="/help/index.htm" class="btn btn-default" role="button" target="_blank"><i class="icon icon-child"></i> Help</a>
     </div>
     </div>

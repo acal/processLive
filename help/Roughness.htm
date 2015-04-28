@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>ROUGHNESS</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height: 50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+        
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col {
+            Width: 100px;
+        }
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>ROUGHNESS function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>ROUGHNESS</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Returns the absolute surface roughness of the specified material, for use in pressure drop calculations.</p>
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax">ROUGHNESS(material, unit)</p>
+                <p>The ROUGHNESS function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Material</b> &nbsp; &nbsp; Required. The type of material. See below for options.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Unit</b> &nbsp; &nbsp; Required. Units for the result in dimensions of length.
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+
+                <p> ROUGHNESS accepts the following case case-insensitive text values for fitting type.</p>
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="unit_table">
+                                <p><b>Material</b>
+                                </p>
+                            </td>
+                            <td class="unit_table">
+                                <p><b>Notes</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Drawn tubing
+                                </p>
+                            </td>
+                            <td>
+                                <p>brass, lead, glass, steal, etc.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>Plastic pipe
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Commercial steel
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>Wrought iron
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Asphalted cast iron
+                                </p>
+                            </td> 
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>Galvanized iron
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Cast iron
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>Wood stove
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Concrete
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="Shaded">
+                            <td>
+                                <p>Riveted steel
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Remarks</h2>
+                <ul>
+                    <li>
+                        <p>If the input data types or units are incorrect, ROUGHNESS returns the #VALUE! error value.</p>
+                    </li>
+                    <li>
+                        <p>Unit names and prefixes are case-sensitive.</p>
+                    </li>
+                    <li>
+                        <p>Data source: Perry's 6-10, GPSA Handbook</p>
+                    </li>
+                </ul>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Example</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="row_label_col">
+                                <p></p>
+                            </td>
+                            <td class="formula_col">
+                                <p><b>A</b>
+                                </p>
+                            </td>
+                            <td class="result_col">
+                                <p><b>B</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b>1</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Formula</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Description (Result)</b>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>2</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=ROUGHNESS("Drawn tubing", "in")</p>
+                            </td>
+                            <td>
+                                <p>Returns the absolute roughness of drawn tubing in inches (5.98E-05).</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><b>3</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=ROUGHNESS("Commercial steel", "ft")</p>
+                            </td>
+                            <td>
+                                <p>Returns the absolute roughness of commercial steel pipe in ft (1.50E-04).</p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>
