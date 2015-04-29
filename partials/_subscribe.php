@@ -8,6 +8,7 @@
         </style>
         <div id="mc_embed_signup" class="center-block">
             <form action="//processsutilities.us10.list-manage.com/subscribe/post?u=4c4c85231a21cffb5dd577d3e&amp;id=2523429788" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <span class="sr-only">Email list subscription form</span>
                 <div id="mc_embed_signup_scroll">
             	<h2 class="text-center">Subscribe to our mailing list</h2>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>

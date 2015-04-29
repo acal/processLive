@@ -46,20 +46,9 @@ small { font-size: 0.833em; }
 p {
   font-weight: bold;
 }
-header {
-    text-align: center;
-}
-header h1 {
-    padding: 7px 0 14px 0;
-    font-size: 50px;
-}
-header h3 {
-    padding: 14px 0 14px 0;
-}
 article ul {
     list-style-type: none;
 }
-
 p span {
   display: block;
 }
@@ -71,6 +60,10 @@ td {
 }
 .section_header {
   padding: 35px 0 12px 0;
+}
+.pow {
+  font-size: 2rem;
+  padding-top: 5px;
 }
 /* END GENERAL */
 
@@ -87,21 +80,28 @@ td {
   margin-right: 7px;
 }
 /* END NAVIGATION*/
+/* Header Section */
+header {
+    text-align: center;
+    padding-top: 55px;
+}
+header h1 {
+    padding: 7px 0 14px 0;
+    font-size: 50px;
+}
+header h3 {
+    padding: 14px 0 14px 0;
+}
+/* END Header Section */
 
 /* Searchbar related */
-.customSearch1 {
-  position: relative;
-  top: 15px;
-  right:17px;
-  padding: 0;
-  margin: 0;
+.cSearch1 {
+  margin-right: 15px;
+  margin-left: 15px;
 }
-.grey {
-  color: #7F7F7F;
-}
-.pow {
-  font-size: 2rem;
-  padding-top: 5px;
+.cSearch2 {
+  width: 220px;
+  padding: 0 7px 0 7px;
 }
 .collapse.width {
     height: auto;
@@ -110,6 +110,9 @@ td {
     -o-transition: width 0.35s ease;
     transition: width 0.35s ease;
 }
+.gsc-selected-option-container.gsc-inline-block {
+  width: 150px !important;
+}
 /* END Searchbar related */
 
 /* PITCH INFO SECTION */
@@ -117,13 +120,11 @@ td {
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding: 0 10px 0 10px;
+padding: 0 20px 0 20px;
 }
-.pitch table, .pitch th, .pitch td {
-    border: 1px solid #333;
-}
-.pitch th, .pitch td {
-    text-align: left;    
+.pitch-center table {
+  margin-left:auto; 
+  margin-right:auto;
 }
 .brackets {
  position: relative;
@@ -209,7 +210,7 @@ padding: 0 10px 0 10px;
   padding: 0 0 5px 0;
 }
 .avatar img {
-  margin-top: 30px;
+  margin: 30px 0 0 auto;
 }
 /*END CONSULTING BIO SECTION*/
 

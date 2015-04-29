@@ -3,65 +3,17 @@
 <html lang="en" class="no-js" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="icon" type="image/png" href="/img/favicon_32px.jpg" sizes="32x32"/>
-    <link rel="icon" type="image/png" href="/img/favicon_16px.jpg" sizes="16x16"/>
-    <link rel="alternate" href="http://processutilites.com/en" hreflang="en" />
-    <title>Process|Utilities Excel Add-in for Engineers</title>
-
-    <meta property="og:title" content="Process | Utility"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://processutility.com"/>
-    <meta property="og:image" content="/img/process-logo.png"/>
-  
-    <meta name="function description" content="Process Utility"/>
-    <meta name="author" content="Process Utilities" />
-    <meta name="description" content="Process Utilities Microsoft Excel Engineering Addon Plugin">
-    <meta name="keywords" content="Microsoft Excel, addin, plugin, unit 
-    conversions, process engineering, flows, temperatures, pressure, gases, liquids, steam, molecules, atomic">
-
-    <!--[if lt IE 9]>
-    <script src="/javascripts/libs/html5shiv.min.js"></script>
-    <script src="/javascripts/libs/css3-mediaqueries.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/slide.css" />
-    <link rel="stylesheet" href="/css/process.css" type="text/css"/>
-    
-    
-    <script src="js/jquery.1.11.1.min.js"></script>
-    <script src="js/bootstrap.3.3.4.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="https://use.fonticons.com/9943254c.js"></script> 
-    
+<?php
+  include('partials/_head.php')
+?>    
 </head>
 
 <body>
 <!-- Google Tag Manager -->
-<noscript><iframe  title="google tag manager" src="//www.googletagmanager.com/ns.html?id=GTM-TM7GCW"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TM7GCW');</script>
+<?php
+  include('partials/_tag.php')
+?>
 <!-- End Google Tag Manager -->
-
-<!-- Facebook like adn share button js sdk -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- End Facebook like share button script -->
 
 
 <!-- Main content container div -->
@@ -71,52 +23,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <?php
   include('partials/_nav.php')
 ?>
-  <br><br><br>
-<!--  Searchbar -->
- <!-- <div id="search-bar">
-          <form id="search" action="#" method="post">
-              <div id="label"><label for="search-terms" id="search-label">search</label></div>
-              <div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
-          </form>
-          <script src="js/classie.js"></script>
-          <script src="js/search.js"></script> 
-  </div>
--->
+
 <!-- Header section -->
-<header class="process">
-   <div class="row">    
-      <h1 class="less-row-space">PROCESS | UTILITIES</h1>
-   </div>
-   <div class="row">
-      <h2 class="less-row-space">[ Engineer in Excel ]</h2>
-   </div>
-</header>    
+<?php
+  include('partials/_header.php')
+?>    
 
 <!-- Info graphic / pitch -->
  <article>
     <div class="row">
       <div class="pitchPic">
         <img src="img/PID_picture.png" class="img-responsive" alt="PID Process Utilities" 
-        width="1065px" height="404px">
+        width="1367" height="510">
       </div>
     </div>
  
     <div class="row">
-        <span><h3 class="text-center less-row-space">A set of custom functions,</h3></span>
-        <span><h3 class="text-center less-row-space">taking Process Engineering in Excel to a new level.</h3></span>
+        <h3 class="text-center less-row-space"><span>A set of custom functions,</span></h3>
+        <h3 class="text-center less-row-space"><span>taking Process Engineering in Excel to a new level.</span></h3>
     </div>
     <br>
-    <div class="row pitch-bold">
-          <table align="center">
+    <div class="row pitch-center">
+          <table>
             <tr>
               <th colspan="6"></th>
             </tr>
             <tr>
               <td rowspan="4"><img src="img/left_sq_brace.png" 
-              class="img-responsive brackets" width="95px" height="95px" alt="left brace"></td>
+              class="img-responsive brackets" width="95" height="95" alt="left brace"></td>
               <td colspan="4">Excel – optimized for process & chemical engineering.</td>
               <td rowspan="4"><img src="img/right_sq_brace.png" 
-              class="img-responsive brackets" width="95px" height="95px" alt="right brace"></td>
+              class="img-responsive brackets" width="95" height="95" alt="right brace"></td>
             </tr>
             <tr>
               <td colspan="4">Work more efficiently. Get to the results you need faster.</td>
@@ -193,10 +130,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       <div class="col-sm-10 col-md-10 col-lg-8">
         <ul class="ebook">
-          <li><img src="/img/literature-16.png" width="16px" height="16px" alt="e-book icon"> BUILDING PROCESS CALCULATORS IN EXCEL</li>
-          <li><img src="/img/literature-16.png" width="16px" height="16px" alt="e-book icon"> CONFIGURING EXCEL TO OPMTIMIZE WORK FLOW</li>
-          <li><img src="/img/literature-16.png" width="16px" height="16px" alt="e-book icon"> INTELLIGENT MATERIAL AND ENERGY BALANCES IN EXCEL</li>
-          <li><img src="/img/literature-16.png" width="16px" height="16px" alt="e-book icon"> CHEMICAL PROCESS TECHNOECONOMIC ANALYSIS IN EXCEL</li>
+          <li><img src="/img/literature-16.png" width="16" height="16" alt="e-book icon"> BUILDING PROCESS CALCULATORS IN EXCEL</li>
+          <li><img src="/img/literature-16.png" width="16" height="16" alt="e-book icon"> CONFIGURING EXCEL TO OPMTIMIZE WORK FLOW</li>
+          <li><img src="/img/literature-16.png" width="16" height="16" alt="e-book icon"> INTELLIGENT MATERIAL AND ENERGY BALANCES IN EXCEL</li>
+          <li><img src="/img/literature-16.png" width="16" height="16" alt="e-book icon"> CHEMICAL PROCESS TECHNOECONOMIC ANALYSIS IN EXCEL</li>
         </ul>
       </div>
     </div>
@@ -236,7 +173,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	  <h1 class="text-center">[ CONSULTING ]</h1>
 	  <br>
     <div class="col-xs-4 col-lg-2 avatar"><img src="img/CB.jpg" class="img-circle img-responsive" 
-      alt="Chirs Burk Image" width="64px" height="64px" align="right">
+      alt="Chirs Burk Image" width="64" height="64">
     </div>
 	  <div class="col-xs-8 col-lg-10">
 	    <ul class="contact">
@@ -272,7 +209,7 @@ Energy, water, electrochemistry, specialty chemicals, oil & gas.</li>
     </div>
 
     <div class="col-xs-5 col-lg-6 climber">
-      <img src="img/CB2.jpg" height="350px" width="250px" alt="Chris climbing pic">
+      <img src="img/CB2.jpg" height="350" width="250" alt="Chris climbing pic">
     </div>
   </div>
 
