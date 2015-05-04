@@ -72,7 +72,7 @@
            <div class="col-xs-0 col-sm-3 col-lg-3"></div>
            <div class="col-xs-12 col-sm-6 col-lg-6">
              <p class="text-center">intelligent unit conversion / dimensional analysis / molecular formulas / 
-             pressure drop / engineering referencespecify standard and gauge conditions / 
+             pressure drop / engineering reference / specify standard and gauge conditions / 
              custom significant figures</p>
            </div>
            <div class="col-xs-0 col-sm-3 col-lg-3"></div>
