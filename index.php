@@ -17,7 +17,8 @@
 
 
 <!-- Main content container div -->
-<main itemscope itemtype="http://schema.org/SoftwareApplication">
+<main>
+<div itemscope itemtype="http://schema.org/SoftwareApplication">
 <div class="container-fluid">
 <!-- Nav -->
 <?php
@@ -107,8 +108,7 @@
                 <figure>
                     <div class="screenshot-container">
                         <a href="/help/helpDoc/ProcessUtilitiesHelp.1.01.pdf" target="_blank">
-                             <img id="_screenshot7" itemprop="screenshot" src="img/Help_SS.png" 
-                             class="img-responsive" alt="Screenshot of Help manual"/>
+                             <img src="img/Help_SS.png" class="img-responsive" alt="Screenshot of Help manual"/>
                         </a>
                     </div>
                 </figure>
@@ -124,8 +124,7 @@
                 <figure>
                     <div class="screenshot-container">
                         <a href="/help/gettingStarted/gettingStarted.1.0.pdf" target="_blank">
-                            <img id="_screenshot8" itemprop="screenshot" 
-                            src="img/GettingStarted_SS.png" class="img-responsive" alt="Screenshot easy start manual"/>
+                            <img src="img/GettingStarted_SS.png" class="img-responsive" alt="Screenshot easy start manual"/>
                         </a>
                     </div>
                 </figure>
@@ -157,7 +156,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                 <figure>
                     <img itemprop="screenshot" src="img/ebooks_SS.png" class="img-responsive ebooks-screenshot-container" 
-                    alt="ebooks by Process Utilities"></a>
+                    alt="ebooks by Process Utilities">
                 </figure>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -208,7 +207,7 @@
         <div class="col-xs-4 col-sm-4 col-lg-2 avatar"><img src="img/Avatar3.png" 
         class="img-circle img-responsive" alt="Chirs Burk Image" width="90" height="90">
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <p itemprop="name" class="text-right">Chris Burk  </p>
+                <p itemprop="name" class="text-right">Chris Burk &nbsp;</p>
             </span>
         </div>
         <div class="col-xs-8 col-sm-8 col-lg-8">
@@ -243,7 +242,7 @@
 <?php
   include('partials/_footer.php')
 ?>
-</div>
+
     <meta itemprop="datePublished" content="2015-06-01">
     <meta itemprop="requirements" content="System installed and running Microsoft Excel 14.0 or higher">
     <meta itemprop="operatingSystem" content="Must be able to run MS Excel 14.0 or higher">
@@ -251,7 +250,7 @@
         <meta itemprop="price" content="29.99">
         <meta itemprop="priceCurrency" content="USD" />
     </div>
-    
+</div>    
 </main>
 </body>
 </html>
