@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+    <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+    <Title>Z</Title>
+
+    <style type="text/css">
+        h1 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 250%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        h2 {
+            font-family: wf_segoe-ui_normal, Segoe UI, Arial, Sans-serif!important;
+            font-weight: normal;
+            font-size: 135%;
+            color: #363636;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+            font-weight: normal;
+            font-size: 85%;
+            color: #363636;
+        }
+        
+        li {
+            color: #363636;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: #d8d8d8!important;
+        }
+        
+        tr {
+            height:50px;
+        }
+        
+        .shaded {
+            background-color: #f3f3f3;
+        }
+                
+        .syntax {
+            padding-left: 10px;
+            line-height: 40px;
+            width: 600px;
+            background-color: #f3f3f3;
+        }
+        
+        td {
+            padding-left: 10px;
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .unit_table {
+            Width: 300px;
+        }
+        
+        .prefix_table {
+            Width: 150px;
+        }
+        
+        .row_label_col {
+            Width: 40px;   
+        }
+        
+        .formula_col {
+            Width: 300px;
+        }
+        
+        .result_col{
+            Width: 100px;
+        }
+        
+    </style>
+
+</HEAD>
+
+
+<BODY>
+    <div class="row">
+
+        <div>
+            <h1>Z function</h1>
+
+            <section>
+                <p>This article describes the formula syntax and usage of the <b>Z</b> function in Microsoft Excel.</p>
+            </section>
+
+
+            <section>
+                <h2>Description</h2>
+                <p>Returns the compressibility factor for a real gas based on reduced temperature and reduced pressure.</p>
+            </section>
+
+
+            <section>
+                <h2>Syntax</h2>
+                <p class="syntax">Z(reduced_temperature, reduced_pressure)</p>
+                <p>The Z function syntax has the following arguments:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Reduced_temperature</b> &nbsp; &nbsp; Required. The reduced temperature for the gas (actual temperature / critical temperature).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Reduced_pressure</b> &nbsp; &nbsp; Required. The reduced pressure for the gas (actual pressure / critical pressure).
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Remarks</h2>
+                <ul>
+                    <li>
+                        <p>Based on linear interpolation of the Nelson-Obert Generalized Compressibility Charts. Accuracy of charts is reported to be 1-2% for Z values greater than 0.6, and 4-6% for Z values 0.3-0.6. Strongly polar gases may have more error. </p>
+                    </li>
+                    <li>
+                        <p>For most gases, reduced pressure is defined as actual temprature divided by critical temperature, and reduced pressure is defined as actual pressure divided by critical pressure.</p>
+                    </li>
+                    <li>
+                        <p>For the gases hydrogen, helium, and neon, reduced temperature is defined as Tr = T/(Tc+8), and reduced pressure is defined as Pr = P/(Pc+8).</p>
+                    </li>
+                    <li>
+                        <p>If the reduced temperature and reduced pressure specified are outside the range of the charts, Z will return a #VALUE! error.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Example</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="row_label_col">
+                                <p></p>
+                            </td>
+                            <td class= "formula_col">
+                                <p><b>A</b>
+                                </p>
+                            </td>
+                            <td class= "result_col">
+                                <p><b>B</b>
+                                </p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b>1</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p><b>Formula</b></p>
+                            </td>
+                            <td>
+                                <p><b>Description (Result)</b></p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>2</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=Z(2.25, 1.1)</p>
+                            </td>
+                            <td>
+                                <p>Returns the compressibility factor for gas at a reduced temperature of 2.25 and a reduced pressure of 1.1 (0.988).</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><b>3</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=Z(1.025, 0.45)</p>
+                            </td>
+                            <td>
+                                <p>Returns the compressibility factor for gas at a reduced temperature of 1.025 and a reduced pressure of 0.45 (0.844).</p>
+                            </td>
+                        </tr>
+
+                        <tr class="shaded">
+                            <td>
+                                <p><b>4</b>
+                                </p>
+                            </td>
+                            <td>
+                                <p>=Z(6.5,4.3)</p>
+                            </td>
+                            <td>
+                                <p>Returns the #VALUE! error - the reduced temperature and reduced pressure specified are out of the range of the Nelson-Obert Charts.</p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>
