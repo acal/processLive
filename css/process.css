@@ -503,11 +503,11 @@ header h3 {
     margin-left: auto;
     margin-right: auto;
     padding: 35px 15px 5px 15px;
-}
-.functions-header{
-    font-size: 1.8em;
-    margin-bottom: 14px;
-}
+    }
+    .functions-header{
+        font-size: 1.8em;
+        margin-bottom: 14px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
