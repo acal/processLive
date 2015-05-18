@@ -11,9 +11,7 @@
      <div class="navbar-collapse collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.php"><span class="sr-only">Toggle navigation</span><i class="icon icon-home"></i></a></li>
-          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#func">the functions</a></li>
-          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#ebooks">ebooks</a></li> 
-          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">contact</a></li>
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#func">functions</a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#consulting">consulting</a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="https://gumroad.com/l/ngIdt" target="_blank">preorder</a></li>
           <li class="dropdown">

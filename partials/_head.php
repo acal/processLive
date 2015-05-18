@@ -4,7 +4,7 @@
     <link rel="icon" type="image/png" href="/img/favicon_32px.jpg" sizes="32x32"/>
     <link rel="icon" type="image/png" href="/img/favicon_16px.jpg" sizes="16x16"/>
     <link rel="alternate" href="http://processutilites.com/en" hreflang="en" />
-    <title>Process|Utilities Excel Add-in for Engineers</title>
+    <title>Process|Utilities Excel Addin Plugin for Chemical Engineers</title>
 
     <meta property="og:title" content="Process | Utility"/>
     <meta property="og:type" content="website"/>
@@ -13,9 +13,11 @@
   
     <meta name="function description" content="Process Utility"/>
     <meta name="author" content="Process Utilities" />
-    <meta name="description" content="Process Utilities Microsoft Excel Engineering Addon Plugin">
+    <meta name="description" content="Process Utilities Microsoft Excel Addin Plugin 
+    for Chemical Engineers -for intuitive design and modelling">
     <meta name="keywords" content="Microsoft Excel, addin, plugin, unit 
-    conversions, process engineering, flows, temperatures, pressure, gases, liquids, steam, molecules, atomic">
+    conversions, process engineering, flows, temperatures, pressure, gases, liquids, steam, 
+    molecules, atomic, steam tables">
 
     <!--[if lt IE 9]>
     <script src="/javascripts/libs/html5shiv.min.js"></script>
