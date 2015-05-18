@@ -53,13 +53,15 @@
             <tr>
               <td rowspan="4">
                   <img src="img/left_sq_brace.png" 
-                  class="img-responsive brackets" width="20" height="172" alt="left brace">              </td>
+                  class="img-responsive brackets" width="20" height="172" alt="left brace">
+              </td>
               <td colspan="1" class="text-center pitch-line">Excel – <span class="pink-text">
                    optimized</span> for process &amp; chemical engineering.
               </td>
               <td rowspan="4">
                   <img src="img/right_sq_brace.png" 
-                  class="img-responsive brackets" width="20" height="172" alt="right brace">              </td>
+                  class="img-responsive brackets" width="20" height="172" alt="right brace">
+              </td>
             </tr>
             <tr>
               <td class="text-center pitch-line">Be more <span class="orange-text">
@@ -202,8 +204,8 @@
                 <div class="row section_header">
                     <h1 class="text-center functions-header">[ CONSULTING ]</h1>
                     <div class="col-xs-0 col-sm-0 col-lg-2"> </div>
-                    <div class="col-xs-4 col-sm-4 col-lg-2 avatar"><img src="img/CB.jpg" class="img-circle img-responsive" alt="Chirs Burk Image" width="90" height="64">
-                        <p class="text-right">Chris Burk</p>
+                    <div class="col-xs-4 col-sm-4 col-lg-2 avatar"><img src="img/Avatar3.png" class="img-circle img-responsive" alt="Chirs Burk Image" width="90" height="90">
+                        <p class="text-right">Chris Burk &nbsp</p>
                     </div>
                     <div class="col-xs-8 col-sm-8 col-lg-8">
                         <ul class="contact">
