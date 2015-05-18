@@ -18,7 +18,8 @@
 
 <!-- Main content container div -->
 <main>
-<div class="container-fluid">
+<div itemscope itemtype="http://schema.org/SoftwareApplication" 
+itemref="_image2" class="container-fluid">
 <!-- Nav -->
 <?php
   include('partials/_nav.php')
@@ -35,7 +36,7 @@
  <article>
     <div class="row">
       <div class="pitchPic">
-        <img src="img/PID_picture.png" class="img-responsive" alt="PID Process Utilities" 
+        <img id="_image2" itemprop="image" src="img/PID_picture.png" class="img-responsive" alt="PID Process Utilities" 
         width="1367" height="510">
       </div>
     </div>
@@ -106,8 +107,9 @@
             <div class="col-xs-6 col-sm-4 col-lg-4">
                 <figure>
                     <div class="screenshot-container">
-                        <a href="/help/helpDoc/ProcessUtilitiesHelp.1.01.pdf" target="_blank">
-                            <img src="img/Help_SS.png" class="img-responsive" alt="Chris Burk Image">
+                        <a href="/help/helpDoc/ProcessUtilitiesHelp.1.02.pdf" target="_blank">
+                             <img id="_screenshot7" itemprop="screenshot" src="img/Help_SS.png" 
+                             class="img-responsive" alt="Screenshot of Help manual"/>
                         </a>
                     </div>
                 </figure>
@@ -122,8 +124,9 @@
             <div class="col-xs-6 col-sm-4 col-lg-4">
                 <figure>
                     <div class="screenshot-container">
-                        <a href="/help/gettingStarted/gettingStarted.1.0.pdf" target="_blank">
-                            <img src="img/GettingStarted_SS.png" class="img-responsive" alt="Chris Burk Image">
+                        <a href="/help/gettingStarted/gettingStarted.1.01.pdf" target="_blank">
+                            <img id="_screenshot8" itemprop="screenshot" 
+                            src="img/GettingStarted_SS.png" class="img-responsive" alt="Screenshot easy start manual"/>
                         </a>
                     </div>
                 </figure>
@@ -154,7 +157,7 @@
                 <div class="col-xs-0 col-sm-0 col-md-0 col-lg-1"></div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                 <figure>
-                    <img src="img/ebooks_SS.png" class="img-responsive ebooks-screenshot-container" alt="ebooks by Process Utilities"></a>
+                    <img id="_screenshot11" itemprop="screenshot" src="img/ebooks_SS.png" class="img-responsive ebooks-screenshot-container" alt="ebooks by Process Utilities"/>
                 </figure>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -174,6 +177,7 @@
         </article>
     </div> 
 <!-- contact section -->
+<span itemscope itemtype="http://schema.org/SoftwareApplication">
 <div class="panel_contact text-center">
   <article id="contact">
     <div class="row section_header">
@@ -200,44 +204,51 @@
 
 
 <!-- Consulting section -->
-            <article id="consulting" class="panel_consulting">
-                <div class="row section_header">
-                    <h1 class="text-center functions-header">[ CONSULTING ]</h1>
-                    <div class="col-xs-0 col-sm-0 col-lg-2"> </div>
-                    <div class="col-xs-4 col-sm-4 col-lg-2 avatar"><img src="img/Avatar3.png" class="img-circle img-responsive" alt="Chirs Burk Image" width="90" height="90">
-                        <p class="text-right">Chris Burk &nbsp</p>
-                    </div>
-                    <div class="col-xs-8 col-sm-8 col-lg-8">
-                        <ul class="contact">
-                            <li>10+ years experience in process development, modeling &amp; evaluation</li>
-                            <li>Energy, water, electrochemistry, specialty chemicals, oil &amp; gas</li>
-                            <li>Colorado Licensed Professional Engineer</li>
-                            <li>BS, MEng | Chemical Engineering | Cornell University</li>
-                        </ul>
-                    </div>
-                </div>
+<article id="consulting" class="panel_consulting">
+    <div class="row section_header">
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<meta itemprop="name" content="[Chirs Burk Image] Chris Burk 10+ years experience in process 
+development, modeling & evaluation Energy, water, electrochemistry, specialty chemicals, oil & 
+gas Colorado Licensed Professional Engineer BS, MEng | Chemical Engineering | Cornell University">
+</span>
+        <h1 class="text-center functions-header">[ CONSULTING ]</h1>
+        <div class="col-xs-0 col-sm-0 col-lg-2"> </div>
+        <div class="col-xs-4 col-sm-4 col-lg-2 avatar"><img src="img/Avatar3.png" class="img-circle img-responsive" alt="Chirs Burk Image" width="90" height="90">
+            <p class="text-right">Chris Burk &nbsp</p>
+        </div>
+        <div class="col-xs-8 col-sm-8 col-lg-8">
+            <ul class="contact">
+                <li>10+ years experience in process development, modeling &amp; evaluation</li>
+                <li>Energy, water, electrochemistry, specialty chemicals, oil &amp; gas</li>
+                <li>Colorado Licensed Professional Engineer</li>
+                <li>BS, MEng | Chemical Engineering | Cornell University</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-xs-7 col-lg-6">
+            <ul class="skill">
+                <li>Excel development</li>
+                <li>VBA, VB.net, Add-ins, User interface design</li>
+                <li>Integration with process modeling software</li>
                 <br>
+                <li>Process modeling</li>
+                <li>Techno-economic analysis</li>
+                <li>Probabilistic &amp; sensitivity analysis</li>
+                <li>Cost estimation</li>
+            </ul>
+        </div>
 
-                <div class="row">
-                    <div class="col-xs-7 col-lg-6">
-                        <ul class="skill">
-                            <li>Excel development</li>
-                            <li>VBA, VB.net, Add-ins, User interface design</li>
-                            <li>Integration with process modeling software</li>
-                            <br>
-                            <li>Process modeling</li>
-                            <li>Techno-economic analysis</li>
-                            <li>Probabilistic &amp; sensitivity analysis</li>
-                            <li>Cost estimation</li>
-                        </ul>
-                    </div>
+        <div class="col-xs-5 col-lg-6 climber">
+            <img itemprop="image" src="img/CB2.jpg" height="210" width="150" 
+            alt="Chris climbing pic"/>
+        </div>
+    </div>
 
-                    <div class="col-xs-5 col-lg-6 climber">
-                        <img src="img/CB2.jpg" height="210" width="150" alt="Chris climbing pic">
-                    </div>
-                </div>
-
-            </article>
+</article>
+</span>
 
 <?php
   include('partials/_footer.php')
