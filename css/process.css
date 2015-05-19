@@ -478,6 +478,8 @@ header h3 {
 .container div.alert {
     margin-top: 40px;
 }
+      
+        
 /* RESPONSIVE MEDIA CALLS */
 
 @media (max-width: 767px) {
@@ -503,11 +505,11 @@ header h3 {
     margin-left: auto;
     margin-right: auto;
     padding: 35px 15px 5px 15px;
-    }
-    .functions-header{
-        font-size: 1.8em;
-        margin-bottom: 14px;
-    }
+}
+.functions-header{
+    font-size: 1.8em;
+    margin-bottom: 14px;
+}
 }
 
 @media screen and (min-width: 1400px) {
@@ -516,3 +518,12 @@ header h3 {
     }
 }
 /* END RESPONSIVE MEDIA CALLS */
+
+/* Mail Chimp style */
+
+#mc_embed_signup {
+    background:inherit;
+    clear:left; width: 300px;
+    font:14px Helvetica,Arial,sans-serif;
+}
+/* end mail chimp styles */  
