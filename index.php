@@ -54,14 +54,14 @@
             <tr>
               <td rowspan="4">
                   <img src="img/left_sq_brace.png" 
-                  class="img-responsive brackets" width="20" height="172" alt="left brace">
+                  class="img-responsive brackets" width="20" height="172" alt="Excel plugin">
               </td>
               <td colspan="1" class="text-center pitch-line">Excel – <span class="pink-text">
                    optimized</span> for process &amp; chemical engineering.
               </td>
               <td rowspan="4">
                   <img src="img/right_sq_brace.png" 
-                  class="img-responsive brackets" width="20" height="172" alt="right brace">
+                  class="img-responsive brackets" width="20" height="172" alt="Excel add in">
               </td>
             </tr>
             <tr>
@@ -206,9 +206,9 @@
         <div class="col-xs-0 col-sm-0 col-lg-2"> </div>
         <div class="col-xs-4 col-sm-4 col-lg-2 avatar"><img src="img/Avatar3.png" 
         class="img-circle img-responsive" alt="Chirs Burk Image" width="90" height="90">
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <p itemprop="name" class="text-right">Chris Burk &nbsp;</p>
-            </span>
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <div itemprop="name" class="text-right"><strong>Chris Burk &nbsp;</strong></div>
+            </div>
         </div>
         <div class="col-xs-8 col-sm-8 col-lg-8">
             <ul class="contact">
@@ -226,7 +226,7 @@
                 <li>Excel development</li>
                 <li>VBA, VB.net, Add-ins, User interface design</li>
                 <li>Integration with process modeling software</li>
-                <br>
+                <li>&nbsp;</li>
                 <li>Process modeling</li>
                 <li>Techno-economic analysis</li>
                 <li>Probabilistic &amp; sensitivity analysis</li>
@@ -246,9 +246,9 @@
     <meta itemprop="datePublished" content="2015-06-01">
     <meta itemprop="requirements" content="System installed and running Microsoft Excel 14.0 or higher">
     <meta itemprop="operatingSystem" content="Must be able to run MS Excel 14.0 or higher">
-    <div meta itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
         <meta itemprop="price" content="29.99">
-        <meta itemprop="priceCurrency" content="USD" />
+        <meta itemprop="priceCurrency" content="USD">
     </div>
 </div>    
 </main>
