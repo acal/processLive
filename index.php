@@ -107,7 +107,7 @@
             <div class="col-xs-6 col-sm-4 col-lg-4">
                 <figure>
                     <div class="screenshot-container">
-                        <a href="/help/helpDoc/ProcessUtilitiesHelp.1.01.pdf" target="_blank">
+                        <a href="/help/helpDoc/ProcessUtilitiesHelp.1.03.pdf" target="_blank">
                              <img src="img/Help_SS.png" class="img-responsive" alt="Screenshot of Help manual"/>
                         </a>
                     </div>
@@ -123,7 +123,7 @@
             <div class="col-xs-6 col-sm-4 col-lg-4">
                 <figure>
                     <div class="screenshot-container">
-                        <a href="/help/gettingStarted/gettingStarted.1.0.pdf" target="_blank">
+                        <a href="/help/gettingStarted/gettingStarted.1.02.pdf" target="_blank">
                             <img src="img/GettingStarted_SS.png" class="img-responsive" alt="Screenshot easy start manual"/>
                         </a>
                     </div>
