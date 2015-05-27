@@ -19,11 +19,15 @@
           <li><a itemprop="downloadUrl" data-toggle="collapse" data-target=".navbar-collapse" 
           href="https://gumroad.com/l/ngIdt" target="_blank">
           <?php
-            // $now = new DateTime();
-            $dtA = new DateTime('05/14/2015 8:00AM');
-            $dtB = new DateTime('06/01/2015 8:00AM');
-            
-            if ( $dtA > $dtB ) {
+          $nowDate = date("Y-m-d");
+          $releaseDate = ('2015-05-31');
+          //Uncomment for Diagnostic
+          //echo " Now . $nowDate . ";
+          //echo "<br><br>";
+          //echo " Old . $releaseDate . ";
+          //echo "<br><br>";
+          
+            if ( $nowDate > $releaseDate ) {
               echo 'buy';
             }
             else {
