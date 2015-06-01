@@ -17,23 +17,7 @@
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#func">functions</a></li>
           <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#consulting">consulting</a></li>
           <li><a itemprop="downloadUrl" data-toggle="collapse" data-target=".navbar-collapse" 
-          href="https://gumroad.com/l/ngIdt" target="_blank">
-          <?php
-          $nowDate = date("Y-m-d");
-          $releaseDate = ('2015-05-31');
-          //Uncomment for Diagnostic
-          //echo " Now . $nowDate . ";
-          //echo "<br><br>";
-          //echo " Old . $releaseDate . ";
-          //echo "<br><br>";
-          
-            if ( $nowDate > $releaseDate ) {
-              echo 'buy';
-            }
-            else {
-              echo 'pre-order';
-            }
-          ?>
+          href="https://gumroad.com/l/ngIdt" target="_blank">buy
           </a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-search"></span>

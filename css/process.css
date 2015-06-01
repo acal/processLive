@@ -248,6 +248,7 @@ header h3 {
 
 .order-button-row {
     padding-bottom: 50px;
+    line-height: 10px;
 }
 /* END PITCH INFO SECTION */
 /*FUNCTIONS SECTION*/
@@ -527,3 +528,8 @@ header h3 {
     font:14px Helvetica,Arial,sans-serif;
 }
 /* end mail chimp styles */  
+
+.reqs-center p {
+    margin-left: auto;
+    margin-right: auto;
+}

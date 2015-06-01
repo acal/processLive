@@ -7,23 +7,147 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.processutilities.com/</loc>
-  <lastmod>2015-04-23T21:26:24+00:00</lastmod>
+  <loc>http://processutilities.com/</loc>
 </url>
 <url>
-  <loc>http://www.processutilities.com/index.php</loc>
-  <lastmod>2015-04-23T21:26:24+00:00</lastmod>
+  <loc>http://processutilities.com/index.php</loc>
 </url>
 <url>
-  <loc>http://www.processutilities.com/download.php</loc>
-  <lastmod>2015-04-23T21:26:24+00:00</lastmod>
+  <loc>http://processutilities.com/help/helpDoc/ProcessUtilitiesHelp.1.01.pdf</loc>
+  <lastmod>2015-05-18T18:16:30+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.processutilities.com/privacy.php</loc>
-  <lastmod>2015-04-23T21:26:24+00:00</lastmod>
+  <loc>http://processutilities.com/help/gettingStarted/gettingStarted.1.0.pdf</loc>
+  <lastmod>2015-05-18T18:16:12+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.processutilities.com/terms.php</loc>
-  <lastmod>2015-04-23T21:26:24+00:00</lastmod>
+  <loc>http://processutilities.com/help/index.htm</loc>
+  <lastmod>2015-05-18T15:39:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/privacy.php</loc>
+</url>
+<url>
+  <loc>http://processutilities.com/terms.php</loc>
+</url>
+<url>
+  <loc>http://processutilities.com/help/Functions.htm</loc>
+  <lastmod>2015-05-18T15:38:59+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/UserInterface.htm</loc>
+  <lastmod>2015-05-18T15:39:40+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/Conv.htm</loc>
+  <lastmod>2015-05-18T15:38:50+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/TConv.htm</loc>
+  <lastmod>2015-05-18T15:39:38+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/PConv.htm</loc>
+  <lastmod>2015-05-18T15:39:26+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/MConv.htm</loc>
+  <lastmod>2015-05-18T15:39:23+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/VConv.htm</loc>
+  <lastmod>2015-05-18T15:39:40+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/MW.htm</loc>
+  <lastmod>2015-05-18T15:39:25+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/CountAtom.htm</loc>
+  <lastmod>2015-05-18T15:38:51+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/STP.htm</loc>
+  <lastmod>2015-05-18T15:39:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/SatSteam.htm</loc>
+  <lastmod>2015-05-18T15:39:34+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/SuperSteam.htm</loc>
+  <lastmod>2015-05-18T15:39:37+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/Z.htm</loc>
+  <lastmod>2015-05-18T15:39:41+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/PipeSize.htm</loc>
+  <lastmod>2015-05-18T15:39:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/Roughness.htm</loc>
+  <lastmod>2015-05-18T15:39:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/Dimensionless.htm</loc>
+  <lastmod>2015-05-18T15:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/Dimensional.htm</loc>
+  <lastmod>2015-05-18T15:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/UnitMath.htm</loc>
+  <lastmod>2015-05-18T15:39:39+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/BaseUnits.htm</loc>
+  <lastmod>2015-05-18T15:38:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/CvL.htm</loc>
+  <lastmod>2015-05-18T15:38:54+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/CvG.htm</loc>
+  <lastmod>2015-05-18T15:38:53+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/HeadPressure.htm</loc>
+  <lastmod>2015-05-18T15:39:08+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/PressureDrop.htm</loc>
+  <lastmod>2015-05-18T15:39:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/PipeFlow.htm</loc>
+  <lastmod>2015-05-18T15:39:26+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/GasDensity.htm</loc>
+  <lastmod>2015-05-18T15:39:00+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/LMTD.htm</loc>
+  <lastmod>2015-05-18T15:39:22+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/Quadratic.htm</loc>
+  <lastmod>2015-05-18T15:39:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/FunctionsMenu.htm</loc>
+  <lastmod>2015-05-18T15:38:59+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/Conditions.htm</loc>
+  <lastmod>2015-05-18T15:38:47+00:00</lastmod>
+</url>
+<url>
+  <loc>http://processutilities.com/help/SigFigs.htm</loc>
+  <lastmod>2015-05-18T15:39:35+00:00</lastmod>
 </url>
 </urlset>

@@ -6,15 +6,14 @@
     <link rel="alternate" href="http://processutilites.com/en" hreflang="en" />
     <title>Process|Utilities Excel Addin Plugin for Chemical Engineers</title>
 
-    <meta property="og:title" content="Process | Utility"/>
+    <meta property="og:title" content="Process | Utilities"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://processutility.com"/>
-    <meta property="og:image" content="/img/process-logo.png"/>
+    <meta property="og:url" content="http://processutilities.com"/>
+    <meta property="og:image" content="http://processutilities.com/img/PID_picture.png"/>
   
-    <meta name="function description" content="Process Utility"/>
-    <meta name="author" content="Process Utilities" />
-    <meta name="description" content="Process Utilities Microsoft Excel Addin Plugin 
-    for Chemical Engineers -for intuitive design and modelling">
+    <meta name="function description" content="Process Utilities"/>
+    <meta name="author" content="Burk Engineering" />
+    <meta name="description" content="The Excel Add-in for Chemical Engineers">
     <meta name="keywords" content="Microsoft Excel, addin, plugin, unit 
     conversions, process engineering, flows, temperatures, pressure, gases, liquids, steam, 
     molecules, atomic, steam tables">
