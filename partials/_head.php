@@ -11,8 +11,8 @@
     <meta property="og:url" content="http://processutilities.com"/>
     <meta property="og:image" content="http://processutilities.com/img/PID_picture.png"/>
   
-    <meta name="function description" content="Process Utilities"/>
-    <meta name="author" content="Burk Engineering" />
+    <meta name="application-name" content="Process Utilities"/>
+    <meta name="author" content="Burk Engineering LLC" />
     <meta name="description" content="The Excel Add-in for Chemical Engineers">
     <meta name="keywords" content="Microsoft Excel, addin, plugin, unit 
     conversions, process engineering, flows, temperatures, pressure, gases, liquids, steam, 
