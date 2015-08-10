@@ -37,8 +37,7 @@
  <article>
     <div class="row">
       <div class="pitchPic">
-        <img itemprop="image" src="img/PID_picture.png" class="img-responsive" alt="PID Process Utilities" 
-        width="1367" height="510">
+        <img itemprop="image" src="img/PID_picture.png" class="img-responsive" alt="PID Process Utilities Excel Addin for Chemical Engineers" width="1367" height="510">
       </div>
     </div>
  
