@@ -8,8 +8,9 @@
       <div class="row">
   <div class="col-sm-12 text-center">
   <p>Supported versions of Excel:</p>
-  <p>Excel 2007, 2010, 2013 for Windows</p>
-  <p>32- and 64-bit versions</p>
+  <span itemprop="requirements">Excel 2007, 2010, 2013</span> for 
+  <span itemprop="operatingSystem">Windows</span></p>
+  <p itemprop="softwareVersion">32- and 64-bit versions</p>
   </div>
 </div>
   </div>

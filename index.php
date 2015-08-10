@@ -126,7 +126,7 @@
                 <figure>
                     <div class="screenshot-container">
                         <a href="/help/gettingStarted/gettingStarted.1.0.pdf" target="_blank">
-                            <img src="img/GettingStarted_SS.png" class="img-responsive" alt="Screenshot easy start manual"/>
+                            <img itemprop="screenshot" src="img/GettingStarted_SS.png" class="img-responsive" alt="Screenshot easy start manual"/>
                         </a>
                     </div>
                 </figure>
@@ -249,8 +249,6 @@
 ?>
 
     <meta itemprop="datePublished" content="2015-06-01">
-    <meta itemprop="requirements" content="System installed and running Microsoft Excel 14.0 or higher">
-    <meta itemprop="operatingSystem" content="Must be able to run MS Excel 14.0 or higher">
     <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
         <meta itemprop="price" content="29.99">
         <meta itemprop="priceCurrency" content="USD">

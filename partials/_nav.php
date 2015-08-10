@@ -1,6 +1,6 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.php">
+        <a itemprop="url" class="navbar-brand" href="index.php">
           <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
           <span itemprop="name">PROCESS | UTILITIES</span></span>
         </a>
