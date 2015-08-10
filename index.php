@@ -10,11 +10,11 @@
 </head>
 
 <body>
-<!-- Google Tag Manager -->
+
 <?php
   include('partials/_tag.php')
 ?>
-<!-- End Google Tag Manager -->
+
 
 
 <!-- Main content container div -->
