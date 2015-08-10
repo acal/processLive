@@ -6,6 +6,7 @@
 <?php
   include('partials/_head.php')
 ?>    
+<title>Process|Utilities Terms</title>
 </head>
 
 <body>
@@ -43,7 +44,7 @@
     <section>
     <div class="container">
     <div class="row">
-        <h1 class="left">Legal Stuff: Term and Conditions of Website Use</h1>
+        <h1 class="left">Legal Stuff: Terms and Conditions of Website Use</h1>
     </div>
     <hr>
     <div class="row">
@@ -56,9 +57,8 @@
         and whenever practicable include publicly readable text with the content reading 
         "Copyright: Burk Engineering LLC" or "Credits: Burk Engineering LLC"</p>
         <br>
-        <p>The content of this site is intended for mature audiences.  Children under 13 are not permitted.</p>
-        <br>
-        <p>Updated: April 28, 2015</p>
+        
+        <p>Updated: August 10, 2015</p>
         <br>
     </div>
 <!-- close main div container -->  

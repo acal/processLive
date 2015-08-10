@@ -5,7 +5,8 @@
 <head>
 <?php
   include('partials/_head.php')
-?>    
+?> 
+<title>Process|Utilities Excel Addin for Chemical Engineers</title>   
 </head>
 
 <body>

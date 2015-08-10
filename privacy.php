@@ -5,7 +5,8 @@
 <head>
 <?php
   include('partials/_head.php')
-?>    
+?>  
+<title>Process|Utilities Privacy</title>  
 </head>
 
 <body>
@@ -108,7 +109,7 @@
         <h2>Contact and Revisions</h2>
         <p>If you have questions or concerns about our Privacy Policy, please contact us at: info@processutilities.com. This Privacy Policy is subject to occasional revision at our discretion, and if we make any substantial changes in the way we use your Personal Information, we will post an alert on this page. If you object to any such changes, you must cease using PU. Continued use of PU following notice of any such changes shall indicate your acknowledgement of such changes and agreement to be bound by the terms and conditions of such changes.</p>
         
-        <p>Updated: April 28, 2015</p>
+        <p>Updated: August 10, 2015</p>
 
 <br>
 </div>
